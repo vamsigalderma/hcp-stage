@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>HCP Case Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>ClosedDate</fieldNames>
+        <picklistValueName>Closed - denied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ClosedDate</fieldNames>
+        <picklistValueName>Closed - verified</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>HCP_Validation</recordTypeName>
+</PathAssistant>

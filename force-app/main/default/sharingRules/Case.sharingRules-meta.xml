@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Records_for_GainConnect_Brazil</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Records for GainConnect Brazil</label>
+        <sharedTo>
+            <group>GainConnect_Brazil</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact_Country__c</field>
+            <operation>equals</operation>
+            <value>Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_GainConnect_Singapore</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Records for GainConnect Singapore</label>
+        <sharedTo>
+            <group>GainConnect_Singapore</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact_Country__c</field>
+            <operation>equals</operation>
+            <value>Singapore</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_RX_ZA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Records for RX ZA</label>
+        <sharedTo>
+            <group>RX_ZA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>RX</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact_Country__c</field>
+            <operation>equals</operation>
+            <value>South Africa</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>
