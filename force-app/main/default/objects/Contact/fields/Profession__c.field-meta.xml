@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profession__c</fullName>
+    <externalId>false</externalId>
+    <label>Profession</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Doctor</fullName>
+                <default>false</default>
+                <label>Doctor</label>
+            </value>
+            <value>
+                <fullName>Dentist</fullName>
+                <default>false</default>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Dermatologist</fullName>
+                <default>false</default>
+                <label>Dermatologist</label>
+            </value>
+            <value>
+                <fullName>Dental Auxiliary</fullName>
+                <default>false</default>
+                <label>Dental Auxiliary</label>
+            </value>
+            <value>
+                <fullName>Dental prosthetist</fullName>
+                <default>false</default>
+                <label>Dental prosthetist</label>
+            </value>
+            <value>
+                <fullName>Health Care Provider</fullName>
+                <default>false</default>
+                <label>Health Care Provider</label>
+            </value>
+            <value>
+                <fullName>Medical Assistance</fullName>
+                <default>false</default>
+                <label>Medical Assistance</label>
+            </value>
+            <value>
+                <fullName>Medical auxiliary</fullName>
+                <default>false</default>
+                <label>Medical auxiliary</label>
+            </value>
+            <value>
+                <fullName>Nurse</fullName>
+                <default>false</default>
+                <label>Nurse</label>
+            </value>
+            <value>
+                <fullName>Nurse Practitioner</fullName>
+                <default>false</default>
+                <label>Nurse Practitioner</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Physician Assistant</fullName>
+                <default>false</default>
+                <label>Physician Assistant</label>
+            </value>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Reimbursement specialist</fullName>
+                <default>false</default>
+                <label>Reimbursement specialist</label>
+            </value>
+            <value>
+                <fullName>Office manager</fullName>
+                <default>false</default>
+                <label>Office manager</label>
+            </value>
+            <value>
+                <fullName>Payor</fullName>
+                <default>false</default>
+                <label>Payor</label>
+            </value>
+            <value>
+                <fullName>Pharmacist</fullName>
+                <default>false</default>
+                <label>Pharmacist</label>
+            </value>
+            <value>
+                <fullName>Physiotherapist</fullName>
+                <default>false</default>
+                <label>Physiotherapist</label>
+            </value>
+            <value>
+                <fullName>Optician</fullName>
+                <default>false</default>
+                <label>Optician</label>
+            </value>
+            <value>
+                <fullName>Chemist</fullName>
+                <default>false</default>
+                <label>Chemist</label>
+            </value>
+            <value>
+                <fullName>Paramedics</fullName>
+                <default>false</default>
+                <label>Paramedics</label>
+            </value>
+            <value>
+                <fullName>Midwife</fullName>
+                <default>false</default>
+                <label>Midwife</label>
+            </value>
+            <value>
+                <fullName>Vet</fullName>
+                <default>false</default>
+                <label>Vet</label>
+            </value>
+            <value>
+                <fullName>Other healthcare professional</fullName>
+                <default>false</default>
+                <label>Other healthcare professional</label>
+            </value>
+            <value>
+                <fullName>Executive</fullName>
+                <default>false</default>
+                <label>Executive</label>
+            </value>
+            <value>
+                <fullName>Journalist/Media</fullName>
+                <default>false</default>
+                <label>Journalist/Media</label>
+            </value>
+            <value>
+                <fullName>Medical student</fullName>
+                <default>false</default>
+                <label>Medical student</label>
+            </value>
+            <value>
+                <fullName>Laboratory Technician</fullName>
+                <default>false</default>
+                <label>Laboratory Technician</label>
+            </value>
+            <value>
+                <fullName>Staff Galderma</fullName>
+                <default>false</default>
+                <label>Staff Galderma</label>
+            </value>
+            <value>
+                <fullName>Biomedical Scientist</fullName>
+                <default>false</default>
+                <label>Biomedical Scientist</label>
+            </value>
+            <value>
+                <fullName>Clinic Manager</fullName>
+                <default>false</default>
+                <label>Clinic Manager</label>
+            </value>
+            <value>
+                <fullName>Alternative Practitioner</fullName>
+                <default>false</default>
+                <label>Alternative Practitioner</label>
+            </value>
+            <value>
+                <fullName>Aesthetic Physician</fullName>
+                <default>false</default>
+                <label>Aesthetic Physician</label>
+            </value>
+            <value>
+                <fullName>Maxillofacial Surgeon</fullName>
+                <default>false</default>
+                <label>Maxillofacial Surgeon</label>
+            </value>
+            <value>
+                <fullName>Nursing staff</fullName>
+                <default>false</default>
+                <label>Nursing staff</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Otorhinolaryngologist</fullName>
+                <default>false</default>
+                <label>Otorhinolaryngologist</label>
+            </value>
+            <value>
+                <fullName>Plastic Surgeon</fullName>
+                <default>false</default>
+                <label>Plastic Surgeon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

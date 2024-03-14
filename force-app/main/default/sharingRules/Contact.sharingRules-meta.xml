@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>GainConnect_Brazil</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>GainConnect Brazil</label>
+        <sharedTo>
+            <group>GainConnect_Brazil</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>contains</operation>
+            <value>Brazil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>GainConnect_Singapore</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Contacts shared only within GainConnect Singapore</description>
+        <label>GainConnect Singapore</label>
+        <sharedTo>
+            <group>GainConnect_Singapore</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>contains</operation>
+            <value>Singapore</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_Cetaphil</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Records for Cetaphil</label>
+        <sharedTo>
+            <group>Cetaphil</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>Cetaphil</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_GainConnect</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Records for GainConnect</label>
+        <sharedTo>
+            <group>GainConnect</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_Oracea</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Records for Oracea</label>
+        <sharedTo>
+            <group>Oracea</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>Oracea</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_RX</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Records for RX</label>
+        <sharedTo>
+            <group>RX</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>RX</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_RX_ZA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Records for RX ZA</label>
+        <sharedTo>
+            <group>RX_ZA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>RX</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>South Africa</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

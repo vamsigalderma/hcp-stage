@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HCP_NEW_EMAIL_VERIFICATION_CHECK</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISCHANGED(Status),
+ISPICKVAL(Status, &quot;New Email verification&quot;)
+)</errorConditionFormula>
+    <errorMessage>Status cannot be changed to &apos;New Email verification&apos;</errorMessage>
+</ValidationRule>

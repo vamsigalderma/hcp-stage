@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GainConnect_Middle_East</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>isTest__c</columns>
+    <columns>TrustLevel__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BrandName__c</field>
+        <operation>includes</operation>
+        <value>GainConnect</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_COUNTRY</field>
+        <operation>equals</operation>
+        <value>UAE,Oman,Lebanon,Iraq,Qatar,Kuwait,Jordan,Bahrain,Egypt,Saudi Arabia</value>
+    </filters>
+    <filters>
+        <field>isTest__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>GainConnect Middle East</label>
+</ListView>
