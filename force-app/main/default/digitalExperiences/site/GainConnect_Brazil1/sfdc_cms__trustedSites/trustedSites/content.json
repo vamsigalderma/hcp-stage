@@ -1,0 +1,35 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://www.googletagmanager.com",
+      "sourceName" : "googletagmanager"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google-analytics.com",
+      "sourceName" : "analytics"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org",
+      "sourceName" : "cdn.cookielaw.org"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "sourceName" : "cdn.cookielaw.org1"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org/scripttemplates/202301.2.0/otBannerSdk.js",
+      "sourceName" : "cdn.cookielaw.org2"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google.com",
+      "sourceName" : "google"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.gstatic.com",
+      "sourceName" : "gstatic"
+    } ]
+  }
+}

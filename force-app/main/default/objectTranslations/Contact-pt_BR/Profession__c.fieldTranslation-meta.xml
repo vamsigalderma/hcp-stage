@@ -12,7 +12,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Biomedical Scientist</masterLabel>
-        <translation></translation>
+        <translation>Biomédico/a</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Chemist</masterLabel>
@@ -36,7 +36,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Dentist</masterLabel>
-        <translation></translation>
+        <translation>Dentista</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dermatologist</masterLabel>
@@ -44,7 +44,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
-        <translation></translation>
+        <translation>Médico/a</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Executive</masterLabel>
@@ -84,7 +84,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Nurse</masterLabel>
-        <translation></translation>
+        <translation>Enfermeiro/a</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Nurse Practitioner</masterLabel>
@@ -128,7 +128,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Pharmacist</masterLabel>
-        <translation></translation>
+        <translation>Farmacêutico/a</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Physician</masterLabel>

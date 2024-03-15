@@ -3,8 +3,13 @@
     <fullName>HCP_NEW_EMAIL_VERIFICATION_CHECK</fullName>
     <active>true</active>
     <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.DeveloperName = &quot;HCP_Validation&quot;, 
 ISCHANGED(Status),
-ISPICKVAL(Status, &quot;New Email verification&quot;)
+ISPICKVAL(Status, &quot;New&quot;),
+CONTAINS($Label.HCPActiveMarkets , Contact.MailingCountry),
+Contact.MailingCountry != &apos;Brazil&apos;
+
 )</errorConditionFormula>
-    <errorMessage>Status cannot be changed to &apos;New Email verification&apos;</errorMessage>
+    <errorMessage>Status cannot be changed to &apos;New&apos;</errorMessage>
 </ValidationRule>

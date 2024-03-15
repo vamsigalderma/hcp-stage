@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Forgot Password",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"6aad3e14-ec44-40d7-ad44-2283a930ed6f\",\"columns\":[{\"UUID\":\"10ab76a4-637f-49cc-b76c-0be15824abeb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpForgotPassword",
+              "id" : "e37acd4c-6554-4f90-863d-1ee93af40e5a",
+              "type" : "component"
+            } ],
+            "id" : "10ab76a4-637f-49cc-b76c-0be15824abeb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6aad3e14-ec44-40d7-ad44-2283a930ed6f",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "825349b2-f546-4f2c-8d0a-c5a0f5b6135c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Forgot Password",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "013456b4-087e-489c-a150-157255ceecf1",
+          "type" : "component"
+        } ],
+        "id" : "19a55ba6-0bab-4d5e-83f4-074b9102d07f",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a9ee27e0-4393-4f9a-bdc5-28292fcd796f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "CdaoJ5IRWRXGGg8iYeaOI0yXhPE4JB",
+    "viewType" : "forgot-password"
+  }
+}

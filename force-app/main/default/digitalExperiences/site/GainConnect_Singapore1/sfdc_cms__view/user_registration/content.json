@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Registration  |  GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"0a400b94-e916-4fda-8e97-436f4b4ba51c\",\"columns\":[{\"UUID\":\"9f763b0f-fe15-4b3d-8c3c-5efdc662816a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:lwcHcpUserRegistrationSingapore",
+              "id" : "5a5f882e-10d3-4ce9-8ff0-6c79a14b68af",
+              "type" : "component"
+            } ],
+            "id" : "9f763b0f-fe15-4b3d-8c3c-5efdc662816a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0a400b94-e916-4fda-8e97-436f4b4ba51c",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "91cb72d1-c7e1-4b66-8603-618b51816f31",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Registration  |  GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2883d0a1-d051-409f-ab3a-eb6aa3265105",
+          "type" : "component"
+        } ],
+        "id" : "8e16e3bf-7ea6-4023-bb83-5f4cd857bd12",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d82dee25-e447-4535-9bb3-b8dc3eba1cf7",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-user-registration"
+  }
+}

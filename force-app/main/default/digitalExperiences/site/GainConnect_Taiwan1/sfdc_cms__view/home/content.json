@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"e0d9900c-9edd-4656-8055-36a60b9b74d0\",\"columns\":[{\"UUID\":\"7424094e-9be7-4ba6-aa56-4e9f9c24ad76\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:lwcHcpHomeComponent",
+              "id" : "90d36526-bc2f-46cb-a5d6-0a02aa0bc7f2",
+              "type" : "component"
+            } ],
+            "id" : "7424094e-9be7-4ba6-aa56-4e9f9c24ad76",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e0d9900c-9edd-4656-8055-36a60b9b74d0",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "370f3d63-5722-4919-a406-cefe50481001",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b22c05ef-fdf1-493e-8fa6-e40140d87421",
+          "type" : "component"
+        } ],
+        "id" : "a1b71b37-c481-42c9-8943-37d0f00cac5c",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "7be1b486-be89-47ba-a924-89a5b7d5463b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "CdaoJ5IRWRXGGg8iYeaOI0yXhPE4JB",
+    "viewType" : "home"
+  }
+}

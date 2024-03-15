@@ -2,6 +2,22 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <apiVersion>55.0</apiVersion>
     <choices>
+        <name>Access_Issue</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Access Issue&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Access Issue</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Adverse_reactions</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Adverse reactions&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Adverse reactions</stringValue>
+        </value>
+    </choices>
+    <choices>
         <name>Closed_denied</name>
         <choiceText>Closed - denied</choiceText>
         <dataType>String</dataType>
@@ -17,11 +33,99 @@
             <stringValue>Closed - verified</stringValue>
         </value>
     </choices>
+    <choices>
+        <name>Complex_functionality</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Complex functionality&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Complex functionality</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Criticism_Praise_Suggestion</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Criticism / Praise / Suggestion&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Criticism / Praise / Suggestion</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Doubts</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Doubts&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Doubts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Existing_problem</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Existing problem&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Existing problem</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Instructions_not_clear</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Instructions not clear&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Instructions not clear</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>New_problem</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;New problem&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>New problem</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Other</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Other&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Other</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Press</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Press&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Press</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Purchase</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;Purchase&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Purchase</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>User_did_not_attend_training</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;User didn&apos;t attend training&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>User didn&apos;t attend training</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>UserVerification</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Helvetica; color: rgb(0, 0, 0);&quot;&gt;User Verification&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>User Verification</stringValue>
+        </value>
+    </choices>
     <decisions>
         <name>Check_Object_Type</name>
         <label>Check Object Type</label>
         <locationX>314</locationX>
-        <locationY>158</locationY>
+        <locationY>134</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Record_is_Case</name>
@@ -73,7 +177,7 @@
         <name>Get_Case</name>
         <label>Get Case</label>
         <locationX>50</locationX>
-        <locationY>278</locationY>
+        <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>HeaderFooter</targetReference>
@@ -94,7 +198,7 @@
         <name>Update_Case_Status</name>
         <label>Update Case Status</label>
         <locationX>50</locationX>
-        <locationY>518</locationY>
+        <locationY>458</locationY>
         <faultConnector>
             <targetReference>headerfooter_2</targetReference>
         </faultConnector>
@@ -107,6 +211,12 @@
             </value>
         </filters>
         <inputAssignments>
+            <field>Reason</field>
+            <value>
+                <elementReference>Case_Reason</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Status</field>
             <value>
                 <elementReference>StatusPicklist</elementReference>
@@ -118,7 +228,7 @@
         <name>HeaderFooter</name>
         <label>HeaderFooter</label>
         <locationX>50</locationX>
-        <locationY>398</locationY>
+        <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -135,6 +245,36 @@
             <fieldType>DropdownBox</fieldType>
             <isRequired>true</isRequired>
         </fields>
+        <fields>
+            <name>Case_Reason</name>
+            <choiceReferences>User_did_not_attend_training</choiceReferences>
+            <choiceReferences>Complex_functionality</choiceReferences>
+            <choiceReferences>Existing_problem</choiceReferences>
+            <choiceReferences>Instructions_not_clear</choiceReferences>
+            <choiceReferences>New_problem</choiceReferences>
+            <choiceReferences>UserVerification</choiceReferences>
+            <choiceReferences>Access_Issue</choiceReferences>
+            <choiceReferences>Criticism_Praise_Suggestion</choiceReferences>
+            <choiceReferences>Doubts</choiceReferences>
+            <choiceReferences>Press</choiceReferences>
+            <choiceReferences>Adverse_reactions</choiceReferences>
+            <choiceReferences>Purchase</choiceReferences>
+            <choiceReferences>Other</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Case Reason</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>StatusPicklist</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Closed_denied</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
         <nextOrFinishButtonLabel>Done</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
         <showHeader>false</showHeader>
@@ -143,13 +283,13 @@
         <name>headerfooter_2</name>
         <label>headerfooter_2</label>
         <locationX>314</locationX>
-        <locationY>638</locationY>
+        <locationY>566</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <fields>
             <name>errorMessage</name>
-            <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;color: rgb(244, 8, 8); background-color: rgb(255, 255, 255);&quot;&gt;Unable to close case: To close this case, please update the status to &apos;Pending Manual Validation&apos;. &lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>

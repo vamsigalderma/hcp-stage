@@ -5,12 +5,24 @@
     <fieldName>Status</fieldName>
     <masterLabel>HCP Case Path</masterLabel>
     <pathAssistantSteps>
+        <fieldNames>ContactId</fieldNames>
         <fieldNames>ClosedDate</fieldNames>
         <picklistValueName>Closed - denied</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
+        <fieldNames>ContactId</fieldNames>
         <fieldNames>ClosedDate</fieldNames>
         <picklistValueName>Closed - verified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ContactId</fieldNames>
+        <fieldNames>CreatedDate</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ContactId</fieldNames>
+        <fieldNames>LastModifiedById</fieldNames>
+        <picklistValueName>Pending Manual Validation</picklistValueName>
     </pathAssistantSteps>
     <recordTypeName>HCP_Validation</recordTypeName>
 </PathAssistant>

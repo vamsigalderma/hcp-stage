@@ -1,0 +1,377 @@
+<template>
+    <div class="content-padding">
+        
+        <template if:true={showContent}>
+            <div class="slds-grid slds-wrap">
+                <template if:true={isLoading}>
+                    <!-- <lightning-spinner alternative-text="Loading" variant="brand" size="large" class="slds-align_absolute-center"></lightning-spinner> -->
+                    <div class="loader">
+                        <div class="loading spinner-border"></div>
+                    </div>
+                </template>
+                
+                <div class="slds-col slds-size_1-of-1">
+                    <c-hcp-reg-instructions></c-hcp-reg-instructions>
+                </div>
+                <!--Title-->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-medium-size_1-of-2 slds-form registration-left">
+                    <div class="slds-form-element slds-form-element_stacked form-item" >
+                        <lightning-select
+                            name="Title"
+                            label={hcpTitle}
+                            value={comboBoxOptions.SalutationDefault}
+                            options={comboBoxOptions.Salutation}
+                            data-wrapperparam = "title"
+                            required="true"
+                            class="reg-input" >
+                        </lightning-select>
+                    </div>
+                    <!--First Name-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpFirstName}
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing} 
+                            max-length="20"
+                            data-wrapperparam = "firstname"
+                            class="reg-input" >
+                        </lightning-input>
+                    </div>
+                     <!--Last Name-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpLastName} 
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing} 
+                            max-length="20"
+                            class="reg-input"
+                            data-wrapperparam = "lastname">
+                        </lightning-input>
+                    </div>
+                    <!--Email Address -->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="email" 
+                            label={hcpEmailAddress} 
+                            required="true"
+                            message-when-value-missing = {hcpValueMissing} 
+                            message-when-type-mismatch = {hcpEmailInvalid}
+                            message-when-pattern-mismatch = {hcpEmailInvalid}
+                            max-length="254" 
+                            class="input email-address reg-input" 
+                            onblur={validateEmailAddress}
+                            onpaste={handlePaste}
+                            data-wrapperparam = "emailaddress"
+                            onkeyup={emailKeyupEvent}
+                            onkeydown={emailKeyupEvent}>
+                        </lightning-input>
+                    </div>
+                    <!--Confirm Email Address -->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="email" 
+                            label={hcpConfirmEmailAddress} 
+                            required="true"
+                            message-when-value-missing = {hcpValueMissing} 
+                            message-when-type-mismatch = {hcpEmailInvalid}
+                            max-length="254" 
+                            class="input confirm-email-address reg-input" 
+                            onblur={confirmEmailValidateEvent}
+                            data-wrapperparam = "confirmemailaddress"
+                            onpaste={handlePaste}
+                            ondrop={handlePaste}
+                            ondragstart={handlePaste}
+                            onfocus={confirmEmailFocus}
+                            disabled="true">
+                        </lightning-input>
+                    </div>
+                   <!--Password-->
+                   <div class="password-form-section">
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                            <div class="slds-form-element slds-form-element_stacked form-item">
+                                <lightning-input 
+                                type="password" 
+                                variant="label-hidden"
+                                message-when-value-missing={hcpValueMissing}
+                                label="Password"
+                                required="true"
+                                max-length="80" 
+                                class="input password reg-input"
+                                data-wrapperparam = "password"
+                                placeholder={labelsImported.hcpPasswordLabel}
+                                onclick={handlePasswordInput}
+                                onblur={hidePasswordReqBox}
+                                onchange={handlePasswordInput}
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!%&@#$^*?~]).{10,}"
+                                message-when-pattern-mismatch={labelsImported.hcpPasswordWeak}
+                                >
+                                </lightning-input>
+                            <div class="pr-box light hide-section" data-id="passwordsection">
+                                <i></i>
+                                <div class="pr-box-inner">
+                                    <p><font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            {labelsImported.hcpPasswordInstructions}
+                                        </font>
+                                    </font>
+                                </p>
+                                <ul>
+                                    <li class="pr-numcharacters">
+                                        <span data-id="length" class="pr-ok"></span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">{labelsImported.hcpPasswordLength}</font>
+                                        </font>
+                                    </li>
+                                    <li class="pr-useLowercase">
+                                        <span data-id="letter" class=""></span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">{labelsImported.hcpPasswordLower}</font>
+                                        </font>
+                                    </li>
+                                    <li class="pr-useUppercase">
+                                        <span data-id="upper" class=""></span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">{labelsImported.hcpPasswordUpper}</font>
+                                        </font>
+                                    </li>
+                                    <li class="pr-useNumbers">
+                                        <span data-id="number" class=""></span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">{labelsImported.hcpPasswordNumber}</font>
+                                        </font>
+                                    </li>
+                                    <li class="pr-useSpecial">
+                                        <span data-id="special" class=""></span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">{labelsImported.hcpPasswordSpecial}</font>
+                                        </font>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                            <div class="slds-form-element slds-form-element_stacked form-item">
+                                <lightning-input 
+                                type="password"
+                                variant="label-hidden"
+                                label="Confirm Password"
+                                required="true"
+                                message-when-value-missing = {hcpValueMissing}
+                                max-length="80" 
+                                class="input confirm-password reg-input"
+                                data-wrapperparam = "confirmpassword"
+                                placeholder={labelsImported.hcpConfirmPasswordLabel}
+                                onchange={confirmPasswordValidateEvent}
+                                >
+                            </lightning-input>
+                            </div>
+                            
+                        </div>
+                        
+                      </div>
+                    
+                    
+                </div>
+                    <!--Profession-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-select
+                            name="profession"
+                            label={hcpProfession}
+                            value={comboBoxOptions.Profession__cDefault}
+                            options={comboBoxOptions.Profession__c}
+                            data-wrapperparam = "profession"
+                            required="true"
+                            class="reg-input">
+                        </lightning-select>
+                    </div>
+                    <!--Medical Id-->
+                    <!--<template if:true={isDoctor}>-->
+                        <div class="slds-form-element slds-form-element_stacked form-item">
+                            <lightning-input 
+                                type="text" 
+                                label={hcpMedicalId}
+                                required="true" 
+                                message-when-value-missing = {hcpValueMissing} 
+                                max-length="20"
+                                data-wrapperparam = "medicalid"
+                                class="reg-input">
+                            </lightning-input>
+                        </div>
+                    <!--</template>-->
+                    <!--Org Name-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpOrgName}
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing} 
+                            max-length="80"
+                            data-wrapperparam = "organization"
+                            class="reg-input">
+                        </lightning-input>
+                    </div>
+                </div>
+        
+        
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-medium-size_1-of-2 slds-form registration-right">
+                    <!--Phone  '^[0-9]{8,14}$'-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpPhoneNumber}
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing} 
+                            max-length="10" 
+                            pattern="^[0-9]{10}$"
+                            message-when-type-mismatch = {hcpInvalidPhone} 
+                            message-when-pattern-mismatch={hcpInvalidPhone}
+                            data-wrapperparam = "phone"
+                            class="reg-input"
+                            onchange={handleNumberChange}
+                            id="phone_number">
+                        </lightning-input>
+                    </div>
+                    <!--Address-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpAddress}
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing}
+                            data-wrapperparam = "address"
+                            max-length="64"
+                            class="reg-input">
+                        </lightning-input>
+                    </div>
+                    <!--City-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                            type="text" 
+                            label={hcpCity}
+                            required="true" 
+                            message-when-value-missing = {hcpValueMissing}
+                            data-wrapperparam = "city"
+                            max-length="40"
+                            class="reg-input"
+                            >
+                        </lightning-input>
+                    </div>
+                    <!--Zip Code-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <lightning-input 
+                                type="text" 
+                                label={hcpZipCode}
+                                required="true" 
+                                message-when-value-missing = {hcpValueMissing} 
+                                max-length="3"
+                                pattern="^[0-9]{3}$"
+                                message-when-type-mismatch = {hcpInvalidZip} 
+                                message-when-pattern-mismatch={hcpInvalidZip}
+                                data-wrapperparam = "zipcode"
+                                class="reg-input">
+                            </lightning-input>
+                    </div>
+                    <!-- Consent Checkboxes -->
+                    <!-- Consent Checkboxes Legal Notice and Privacy-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        <div class="slds-form-element__control">
+                            <div class="slds-form-element consent-checkbox-1">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <input 
+                                            type="checkbox" 
+                                            name="options" 
+                                            id="consent-checkbox-1" 
+                                            data-parentdiv = '.consent-checkbox-1'
+                                            data-errordiv = '.consent-checkbox-1-error'
+                                            data-wrapperparam = "privacyconsent"
+                                            aria-describedby="error_01"
+                                            class="checkbox-reg" 
+                                            onchange={validateCheckboxEvent}
+                                            required
+                                        />
+                                        <label class="slds-checkbox__label" for="consent-checkbox-1">
+                                            <span class="slds-checkbox_faux"></span>
+                                            <span class="slds-form-element__label consent-checkbox-1">
+                                                我已閱讀並理解<a target="_blank" href={hcpLeagalNotice} class="a-hyper-link"><b class="checknox-text-bold">  法律聲明</b></a> 和<a target="_blank" class="a-hyper-link" href={hcpPrivacyNotice}><b class="checknox-text-bold">  隱私聲明</b></a>
+                                                <abbr class="slds-required" title="required">*</abbr>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="slds-form-element__help consent-checkbox-1-error error-hide" id="error_01">{hcpValueMissing}</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- Consent Checkboxes 3-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                       
+                        <div class="slds-form-element__control">
+                            <div class="slds-form-element consent-checkbox-3">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <input 
+                                            type="checkbox" 
+                                            name="options" 
+                                            id="consent-checkbox-3" 
+                                            data-parentdiv = '.consent-checkbox-3'
+                                            data-errordiv = '.consent-checkbox-3-error'
+                                            data-wrapperparam = "marketingconsent"
+                                            aria-describedby="error_03"
+                                            class="checkbox-reg" 
+                                            onchange={validateCheckboxEvent}
+                                            
+                                        />
+                                        <label class="slds-checkbox__label" for="consent-checkbox-3">
+                                            <span class="slds-checkbox_faux"></span>
+                                            <span class="slds-form-element__label consent-checkbox-3">
+                                                <b class="checknox-text-bold">我想收到即時的 Galderma 相關的訊息。 </b><i> 您可以隨時改變主意或管理您的偏好，只需要點選您從我們收到的任何電子郵件頁尾中的取消訂閱鏈接，或通過 <a href={hcpConsentEmail} class="a-hyper-link">privacy.switzerland@galderma.com</a> 聯繫我們。</i>
+                                            </span>
+                                            
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                </div>
+                        </div>
+                    </div>
+                    <!-- recaptcha -->
+                    <div id="recaptchaCheckbox"  class="recaptchaCheckbox"></div>
+                    <template if:false={hideCaptchaError}>
+                        <div class="error-message-submit" style="color:#e76468;font-size: 14px;">
+                            {labelsImported.hcpCaptchaError}
+                        </div>
+                    </template>
+                    <!--Mobile Submit Button-->
+                    <div class="slds-form-element slds-form-element_stacked form-item">
+                        
+                        <input  
+                            type="submit" 
+                            id="edit-submit-mobile" 
+                            name="op" 
+                            value={hcpRegisterLabel}
+                            class="reg-button" 
+                            onclick={submitRegistration} 
+                            >
+                            <div class="error-message-submit error-hide" style="color:#e76468;">
+                                {labelsImported.hcpProcessingErrorMsg}
+                            </div>
+                            <div class="account_login_link">
+                                <a href={hcpLoginUrl} class="a-hyper-link" target="_self"><b>已經有帳號了?</b></a>
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </template>
+        
+    </div>
+</template>

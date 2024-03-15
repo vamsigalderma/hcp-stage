@@ -105,4 +105,24 @@ public class ContactServiceTest {
         Test.stopTest();
         
     }
+    @IsTest
+    private static void populateEmailVerificationKey_Test() {
+        Test.startTest();
+        Account testAccount = new Account(Name = 'test');
+        insert testAccount;
+
+        Contact testContact = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'Unknown', CIAMId__c = '12345678911111',phone='', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = true,
+                MailingCountry = 'Brazil', BrandName__c = 'GainConnect',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false);
+           Contact testContact1 = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'Unknown', CIAMId__c = '12345678911111', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = true,
+                MailingCountry = 'Brazil', BrandName__c = 'GainConnect',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false);
+
+        List<Contact> testContactList = new List<Contact>();
+        testContactList.add(testContact);
+       testContactList.add(testContact1);
+       ContactService.populateEmailVerificationKey(testContactList);
+
+        Test.stopTest();
+    }
 }

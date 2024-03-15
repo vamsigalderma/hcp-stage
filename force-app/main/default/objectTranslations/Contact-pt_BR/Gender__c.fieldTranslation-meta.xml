@@ -4,14 +4,14 @@
     <name>Gender__c</name>
     <picklistValues>
         <masterLabel>Female</masterLabel>
-        <translation></translation>
+        <translation>Feminino</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Male</masterLabel>
-        <translation></translation>
+        <translation>Masculino</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Unknown</masterLabel>
-        <translation></translation>
+        <translation>Não especificado</translation>
     </picklistValues>
 </CustomFieldTranslation>

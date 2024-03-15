@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REQUIRED_CASE_REASON_ON_STATUS_CLOSED</fullName>
+    <active>true</active>
+    <description>Case Reason is required on change of status to Closed - Denied.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status),
+  !CONTAINS($Profile.Name ,&apos;Integration&apos;),
+ ISPICKVAL( Status , &quot;Closed - denied&quot;),
+ ISBLANK(TEXT(Reason)),
+CONTAINS($Label.HCPActiveMarkets , Contact.MailingCountry)
+)</errorConditionFormula>
+    <errorMessage>Please fill the Case Reason</errorMessage>
+</ValidationRule>

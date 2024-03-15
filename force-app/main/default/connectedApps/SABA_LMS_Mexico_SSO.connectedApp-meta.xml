@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>vamsikrishna.mopidevi@galderma.com</contactEmail>
+    <label>SABA LMS Mexico SSO</label>
+    <samlConfig>
+        <acsUrl>https://galdermasastg-hcptestmx.sabacloud.com/Saba/saml/SSO/alias/galdermasastg_hcptestmx_sp</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>galdermasastg_hcptestmx_sp</entityUrl>
+        <issuer>https://galderma-hcp--sit.sandbox.my.salesforce.com/mx</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>FederationId</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

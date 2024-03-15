@@ -1,0 +1,5 @@
+<aura:component implements="lightning:availableForFlowActions,force:hasRecordId">
+    <aura:attribute name="destinationRecordId" type="String"/>
+    <lightning:navigation aura:id="navService"/>
+   
+</aura:component>

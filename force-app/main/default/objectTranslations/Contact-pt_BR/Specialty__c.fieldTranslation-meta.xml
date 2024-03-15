@@ -3,28 +3,40 @@
     <label></label>
     <name>Specialty__c</name>
     <picklistValues>
+        <masterLabel>Aesthetic Medicine</masterLabel>
+        <translation>Medicina Estética</translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>Allergy and Immunology</masterLabel>
-        <translation></translation>
+        <translation>Alergia e Imunologia</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Anesthesiology</masterLabel>
-        <translation></translation>
+        <translation>Anestesiologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biomedical Scientist</masterLabel>
+        <translation>Biomédico/a</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cardiology</masterLabel>
-        <translation></translation>
+        <translation>Cardiologia</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cardiovascular Surgery</masterLabel>
-        <translation></translation>
+        <translation>Cirurgia Cardiovascular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coloproctology</masterLabel>
+        <translation>Coloproctologia</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dentist</masterLabel>
-        <translation></translation>
+        <translation>Dentista</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dermatologist</masterLabel>
-        <translation></translation>
+        <translation>Dermatologista</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dermatology</masterLabel>
@@ -36,26 +48,130 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Endocrinology and Metabology</masterLabel>
-        <translation></translation>
+        <translation>Endocrinologia e Metabologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gastroenterology</masterLabel>
+        <translation>Gastroenterologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery</masterLabel>
+        <translation>Cirurgia Geral</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Geriatrics</masterLabel>
-        <translation></translation>
+        <translation>Geriatria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gynecology and Obstetrics</masterLabel>
+        <translation>Ginecologia e Obstetrícia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectology</masterLabel>
+        <translation>Infectologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intensive Care Medicine</masterLabel>
+        <translation>Medicina Intensiva</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Clinic</masterLabel>
+        <translation>Clínica Médica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Genetics</masterLabel>
+        <translation>Genética Médica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nephrology</masterLabel>
+        <translation>Nefrologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurology</masterLabel>
+        <translation>Neurologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation>Enfermeiro/a</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nutrology</masterLabel>
+        <translation>Neurologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occupational Medicine</masterLabel>
+        <translation>Medicina do Trabalho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation>Oftalmologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedics and Traumatology</masterLabel>
+        <translation>Ortopedia e Traumatologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Outros</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otorhinolaryngology</masterLabel>
+        <translation>Otorrinolaringologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paediatrics</masterLabel>
+        <translation>Pediatria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pathology</masterLabel>
+        <translation>Patologia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Surgery</masterLabel>
+        <translation>Cirurgia Pediátrica</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Pharmacist</masterLabel>
-        <translation></translation>
+        <translation>Farmacêutico/a</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Medicine and Rehabilitation</masterLabel>
+        <translation>Medicina Física e Reabilitação</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Plastic Surgery</masterLabel>
-        <translation></translation>
+        <translation>Cirurgia Plástica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychiatry</masterLabel>
+        <translation>Psiquiatria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulomonology</masterLabel>
+        <translation>Pneumologia</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Radiology and Diagnostic Imaging</masterLabel>
-        <translation></translation>
+        <translation>Radiologia e Diagnóstico por Imagem</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiotherapy</masterLabel>
+        <translation>Radioterapia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resident Dermatologist</masterLabel>
+        <translation>Dermatologista Residente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resident Plastic Surgery</masterLabel>
+        <translation>Cirurgia Plástica Residente</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Scholarship</masterLabel>
         <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoracic Surgery</masterLabel>
+        <translation>Cirurgia Toráxica</translation>
     </picklistValues>
 </CustomFieldTranslation>

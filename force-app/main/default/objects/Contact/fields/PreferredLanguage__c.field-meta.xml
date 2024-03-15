@@ -125,6 +125,41 @@
                 <default>false</default>
                 <label>th</label>
             </value>
+            <value>
+                <fullName>en_SG</fullName>
+                <default>false</default>
+                <label>en_SG</label>
+            </value>
+            <value>
+                <fullName>en_ZA</fullName>
+                <default>false</default>
+                <label>en_ZA</label>
+            </value>
+            <value>
+                <fullName>en_AE</fullName>
+                <default>false</default>
+                <label>en_AE</label>
+            </value>
+            <value>
+                <fullName>es_CL</fullName>
+                <default>false</default>
+                <label>es_CL</label>
+            </value>
+            <value>
+                <fullName>es_CO</fullName>
+                <default>false</default>
+                <label>es_CO</label>
+            </value>
+            <value>
+                <fullName>zh</fullName>
+                <default>false</default>
+                <label>zh</label>
+            </value>
+            <value>
+                <fullName>es</fullName>
+                <default>false</default>
+                <label>es</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

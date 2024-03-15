@@ -1,0 +1,61 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Forgot Password",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"af482150-4309-4936-8427-2be23752fd4f\",\"columns\":[{\"UUID\":\"635a3d4c-2f52-44f2-81fb-9eec36fc6358\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpForgotPassword",
+              "id" : "535fd891-a8b9-4c53-a33a-f02d41b37b85",
+              "type" : "component"
+            } ],
+            "id" : "635a3d4c-2f52-44f2-81fb-9eec36fc6358",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "af482150-4309-4936-8427-2be23752fd4f",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "f8403d93-efd8-4036-9170-4bbf75f92189",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Forgot Password",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8b84785d-7e33-4742-8146-5980c1549d8a",
+          "type" : "component"
+        } ],
+        "id" : "62b9c057-2bc0-465b-a619-1cf1d85d013d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a71e1a64-deba-4fd1-bd4e-aa14f78c6dcc",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "A5GawbN5sdBPMuA0PbxZTCveJie3UD",
+    "viewType" : "forgot-password"
+  }
+}

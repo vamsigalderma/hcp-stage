@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Council_State__c</fullName>
+    <externalId>false</externalId>
+    <label>Council State</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acre</fullName>
+                <default>false</default>
+                <label>Acre</label>
+            </value>
+            <value>
+                <fullName>Alagoas</fullName>
+                <default>false</default>
+                <label>Alagoas</label>
+            </value>
+            <value>
+                <fullName>Amapa</fullName>
+                <default>false</default>
+                <label>Amapa</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Bahia</fullName>
+                <default>false</default>
+                <label>Bahia</label>
+            </value>
+            <value>
+                <fullName>Ceara</fullName>
+                <default>false</default>
+                <label>Ceara</label>
+            </value>
+            <value>
+                <fullName>FederalDistrict</fullName>
+                <default>false</default>
+                <label>FederalDistrict</label>
+            </value>
+            <value>
+                <fullName>Goias</fullName>
+                <default>false</default>
+                <label>Goias</label>
+            </value>
+            <value>
+                <fullName>Holy Spirit</fullName>
+                <default>false</default>
+                <label>Holy Spirit</label>
+            </value>
+            <value>
+                <fullName>Maranhao</fullName>
+                <default>false</default>
+                <label>Maranhao</label>
+            </value>
+            <value>
+                <fullName>Mato Grosso do Sul</fullName>
+                <default>false</default>
+                <label>Mato Grosso do Sul</label>
+            </value>
+            <value>
+                <fullName>Matto Grosso</fullName>
+                <default>false</default>
+                <label>Matto Grosso</label>
+            </value>
+            <value>
+                <fullName>MInas Gerais</fullName>
+                <default>false</default>
+                <label>MInas Gerais</label>
+            </value>
+            <value>
+                <fullName>Para</fullName>
+                <default>false</default>
+                <label>Para</label>
+            </value>
+            <value>
+                <fullName>Paraiba</fullName>
+                <default>false</default>
+                <label>Paraiba</label>
+            </value>
+            <value>
+                <fullName>Parana</fullName>
+                <default>false</default>
+                <label>Parana</label>
+            </value>
+            <value>
+                <fullName>Pernambuco</fullName>
+                <default>false</default>
+                <label>Pernambuco</label>
+            </value>
+            <value>
+                <fullName>Piaui</fullName>
+                <default>false</default>
+                <label>Piaui</label>
+            </value>
+            <value>
+                <fullName>Rio de Janerio</fullName>
+                <default>false</default>
+                <label>Rio de Janerio</label>
+            </value>
+            <value>
+                <fullName>Rio Grande do Norte</fullName>
+                <default>false</default>
+                <label>Rio Grande do Norte</label>
+            </value>
+            <value>
+                <fullName>Rio Grande do Sul</fullName>
+                <default>false</default>
+                <label>Rio Grande do Sul</label>
+            </value>
+            <value>
+                <fullName>Rondonia</fullName>
+                <default>false</default>
+                <label>Rondonia</label>
+            </value>
+            <value>
+                <fullName>Roraima</fullName>
+                <default>false</default>
+                <label>Roraima</label>
+            </value>
+            <value>
+                <fullName>Santa Catarina</fullName>
+                <default>false</default>
+                <label>Santa Catarina</label>
+            </value>
+            <value>
+                <fullName>Sao Paulo</fullName>
+                <default>false</default>
+                <label>Sao Paulo</label>
+            </value>
+            <value>
+                <fullName>Sergipe</fullName>
+                <default>false</default>
+                <label>Sergipe</label>
+            </value>
+            <value>
+                <fullName>Tocantins</fullName>
+                <default>false</default>
+                <label>Tocantins</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

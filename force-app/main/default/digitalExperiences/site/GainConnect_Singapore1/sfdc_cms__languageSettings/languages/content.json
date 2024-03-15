@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_cms__languageSettings",
+  "title" : "LanguageContent",
+  "contentBody" : {
+    "defaultLocale" : "en_SG",
+    "languages" : [ {
+      "isActive" : true,
+      "isAuthoringOnly" : false,
+      "label" : "English (Singapore) (SG)",
+      "locale" : "en_SG"
+    } ]
+  }
+}

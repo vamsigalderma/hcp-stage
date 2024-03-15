@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Council_State__c</name>
+    <picklistValues>
+        <masterLabel>Acre</masterLabel>
+        <translation>Acre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alagoas</masterLabel>
+        <translation>Alagoas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amapa</masterLabel>
+        <translation>Amapá</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amazon</masterLabel>
+        <translation>Amazonas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bahia</masterLabel>
+        <translation>Bahia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceara</masterLabel>
+        <translation>Ceará</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FederalDistrict</masterLabel>
+        <translation>Distrito Federal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goias</masterLabel>
+        <translation>Goiás</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holy Spirit</masterLabel>
+        <translation>Espírito Santo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MInas Gerais</masterLabel>
+        <translation>Minas Gerais</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maranhao</masterLabel>
+        <translation>Maranhão</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mato Grosso do Sul</masterLabel>
+        <translation>Mato Grosso do Sul</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matto Grosso</masterLabel>
+        <translation>Mato Grosso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Para</masterLabel>
+        <translation>Pará</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paraiba</masterLabel>
+        <translation>Paraíba</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parana</masterLabel>
+        <translation>Paraná</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pernambuco</masterLabel>
+        <translation>Pernambuco</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Piaui</masterLabel>
+        <translation>Piauí</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rio Grande do Norte</masterLabel>
+        <translation>Rio Grande do Norte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rio Grande do Sul</masterLabel>
+        <translation>Rio Grande do Sul</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rio de Janerio</masterLabel>
+        <translation>Rio de Janeiro</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rondonia</masterLabel>
+        <translation>Rondônia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roraima</masterLabel>
+        <translation>Roraima</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Santa Catarina</masterLabel>
+        <translation>Santa Catarina</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sao Paulo</masterLabel>
+        <translation>São Paulo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sergipe</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tocantins</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

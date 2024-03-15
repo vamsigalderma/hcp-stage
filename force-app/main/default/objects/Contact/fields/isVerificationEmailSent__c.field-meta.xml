@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isVerificationEmailSent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field tracks if the first verification email is sent to customer</description>
+    <externalId>false</externalId>
+    <label>Is Verification Email Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

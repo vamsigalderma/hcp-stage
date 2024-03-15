@@ -1,0 +1,3 @@
+<design:component >
+    <design:attribute name="destinationRecordId" label="Destination Record Id" default="" />
+</design:component>

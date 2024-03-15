@@ -21,4 +21,8 @@
         <value>Brazil</value>
     </filters>
     <label>GainConnect Brazil</label>
+    <sharedTo>
+        <group>GainConnect_Brazil</group>
+        <group>HCP_Brazil</group>
+    </sharedTo>
 </ListView>

@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "email-verification",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"68e19a14-ea90-4bbe-aad4-17ea493088c7\",\"columns\":[{\"UUID\":\"f23f4479-b674-473d-b36c-2b351c946518\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:emailVerification",
+              "id" : "401e7e1d-8177-4db7-a9e5-9136c3da0fdf",
+              "type" : "component"
+            } ],
+            "id" : "f23f4479-b674-473d-b36c-2b351c946518",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "68e19a14-ea90-4bbe-aad4-17ea493088c7",
+          "type" : "component"
+        } ],
+        "id" : "400c99f7-fd35-4beb-9aeb-a51c7d4532f4",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "email-verification",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ba8e80e8-b364-4871-80ba-b25e2a9ece70",
+          "type" : "component"
+        } ],
+        "id" : "f5772cb2-2529-4107-9c06-9e02e7abd4b2",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9c8d4852-ebb7-4735-a540-001669cdd539",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-email-verification"
+  }
+}

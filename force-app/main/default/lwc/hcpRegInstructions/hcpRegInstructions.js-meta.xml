@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Page</target>
+    </targets>
+    <!-- <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="header" type="String" description="Header" default="Welcome to the Galderma Aesthetics Healthcare Practitioner Portal"/>
+            <property name="orderedListSubHead" type="String" description="Instructions Heading" default="Here you will be able to:"/>
+            <property name="instructionsArrayText" type="String" description="List of Instructions in array format" default='["Find expert product information and assets", "Access validated education and training","Discover tools to help you run and grow your business"]'/>
+            <property name="createAccountText" type="String" description="Create your account text" default="Create your account"/>
+            <property name="registerText" type="String" description="Register Account Text" default="Register with your data"/>
+        </targetConfig>
+    </targetConfigs> -->
+</LightningComponentBundle>

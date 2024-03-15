@@ -1,0 +1,14 @@
+<template>
+    <div >
+        <h3 class="header" style="font-family: 'Galderma';">{header}</h3>
+        <p class="orderedListSubHead">{orderedListSubHead}</p>
+        <ul class="instrcutions-list">
+            <template for:each={instructionsArray} for:item="listItem" >
+                <li key={listItem} class="orderedListSubHead padding-li">{listItem}</li>
+            </template>
+        </ul>
+        <p class="orderedListSubHeader"><b>{createAccountText}</b></p>
+        <p class="orderedListSubHead">{registerText}</p>
+    </div>
+    
+</template>

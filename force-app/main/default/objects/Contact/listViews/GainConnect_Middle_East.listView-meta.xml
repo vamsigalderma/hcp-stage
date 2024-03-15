@@ -29,4 +29,7 @@
         <value>0</value>
     </filters>
     <label>GainConnect Middle East</label>
+    <sharedTo>
+        <group>HCP_UAE</group>
+    </sharedTo>
 </ListView>

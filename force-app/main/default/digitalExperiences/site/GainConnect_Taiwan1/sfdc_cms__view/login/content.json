@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "​登入 | GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"b3f91bf3-8826-4fe1-93d6-06e0dee598ac\",\"columns\":[{\"UUID\":\"0b67844c-0b16-490b-8ef2-33a1d7eb5c1b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpLoginForm",
+              "id" : "7a5fea51-ecdc-4f67-9b50-5954f35849f1",
+              "type" : "component"
+            } ],
+            "id" : "0b67844c-0b16-490b-8ef2-33a1d7eb5c1b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b3f91bf3-8826-4fe1-93d6-06e0dee598ac",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "47697824-8ab5-4c0a-8dbc-85817622276f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "​登入 | GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "20632b0a-da41-4884-8ade-15607d2f863a",
+          "type" : "component"
+        } ],
+        "id" : "42d6668d-8840-45b4-8225-ec8ba90aabf0",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "02f5b9e6-11b9-4aac-b5aa-a4d98db644df",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "CdaoJ5IRWRXGGg8iYeaOI0yXhPE4JB",
+    "viewType" : "login-main"
+  }
+}

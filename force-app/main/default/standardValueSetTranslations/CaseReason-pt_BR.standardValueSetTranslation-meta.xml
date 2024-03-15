@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Access Issue</masterLabel>
+        <translation>Problema de acesso à plataforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Adverse reactions</masterLabel>
+        <translation>Reações adversas (farmacovigilância)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complex functionality</masterLabel>
+        <translation><!-- Complex functionality --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Criticism / Praise / Suggestion</masterLabel>
+        <translation>Crítica/Elogio/Sugestão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Doubts</masterLabel>
+        <translation>Dúvidas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Existing problem</masterLabel>
+        <translation><!-- Existing problem --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Instructions not clear</masterLabel>
+        <translation><!-- Instructions not clear --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New problem</masterLabel>
+        <translation><!-- New problem --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Outro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Press</masterLabel>
+        <translation>Imprensa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purchase</masterLabel>
+        <translation>Compra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Verification</masterLabel>
+        <translation><!-- User Verification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User didn&apos;t attend training</masterLabel>
+        <translation><!-- User didn&apos;t attend training --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

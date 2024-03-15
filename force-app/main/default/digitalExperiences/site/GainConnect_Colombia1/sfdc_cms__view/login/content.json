@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Inicio de sesión | GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"b063838b-3d38-45e2-b4fb-fd6525b69ecf\",\"columns\":[{\"UUID\":\"f6f4cca6-2744-4923-8d85-f0e170124c89\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpLoginForm",
+              "id" : "239696ad-2d9d-4e3d-b7d5-7db9f8904ddc",
+              "type" : "component"
+            } ],
+            "id" : "f6f4cca6-2744-4923-8d85-f0e170124c89",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b063838b-3d38-45e2-b4fb-fd6525b69ecf",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "dfcee130-1ec0-4493-b637-38272dd7d2fe",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Inicio de sesión | GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "9037a70a-09b3-4b6e-bde2-a3dbe3c18c35",
+          "type" : "component"
+        } ],
+        "id" : "8c60bb8a-e9ee-4b4c-bca0-2810b5e364df",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c3d852f7-be63-465e-8394-23895525bb67",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "3iYGrLJ1zsFe4rpY1Kg1hvjR52uXQT",
+    "viewType" : "login-main"
+  }
+}

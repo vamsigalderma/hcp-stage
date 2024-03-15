@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Brazil-CouncilState</label>
+    <protected>false</protected>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">Council_State__c</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">br</value>
+    </values>
+    <values>
+        <field>Picklist_Values__c</field>
+        <value xsi:type="xsd:string">Acre;Alagoas;Amapa;Amazon;Bahia;Ceara;FederalDistrict;Goias;Holy Spirit;Maranhao;Mato Grosso do Sul;Matto Grosso;MInas Gerais;Para;Paraiba;Parana;Pernambuco;Piaui;Rio de Janerio;Rio Grande do Norte;Rio Grande do Sul;Rondonia;Roraima;Santa Catarina;Sao Paulo;Sergipe;Tocantins</value>
+    </values>
+</CustomMetadata>

@@ -23,11 +23,35 @@
         <translation></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>en_AE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>en_GB</masterLabel>
         <translation></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>en_SG</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>en_US</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>en_ZA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>es</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>es_CL</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>es_CO</masterLabel>
         <translation></translation>
     </picklistValues>
     <picklistValues>
@@ -84,6 +108,10 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>th</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>zh</masterLabel>
         <translation></translation>
     </picklistValues>
     <picklistValues>

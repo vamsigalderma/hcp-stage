@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountCreationLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountCreationLabel</shortDescription>
+        <value>Do not have an account yet? Click here</value>
+    </labels>
+    <labels>
+        <fullName>ForgotPasswordLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ForgotPasswordLabel</shortDescription>
+        <value>Passwort vergessen?</value>
+    </labels>
+    <labels>
+        <fullName>HCPAccessInformation</fullName>
+        <categories>Section</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPAccessInformation</shortDescription>
+        <value>Access Information</value>
+    </labels>
+    <labels>
+        <fullName>HCPAccountCreateText</fullName>
+        <categories>Instrctions</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPAccountCreateText</shortDescription>
+        <value>Create your account text</value>
+    </labels>
+    <labels>
+        <fullName>HCPAccountValidationText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPAccountValidationText</shortDescription>
+        <value>To begin the account validation process, the first step is to verify your email. Please verify your email by clicking the button below.</value>
+    </labels>
+    <labels>
+        <fullName>HCPActiveMarkets</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPActiveMarkets</shortDescription>
+        <value>Germany,Mexico,Colombia,Singapore,Brazil,Chile,South Africa,Taiwan,Thailand,Bahrain,Egypt,Iraq,Jordan,Kuwait,Lebanon,Oman,Qatar,Saudi Arabia,UAE</value>
+    </labels>
+    <labels>
+        <fullName>HCPAddress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPAddress</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>HCPAdminEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPAdminEmail</shortDescription>
+        <value>vmopidevi@salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>HCPBackToLogin</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPBackToLogin</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>HCPBestRegards</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPBestRegards</shortDescription>
+        <value>Wish you all the best,</value>
+    </labels>
+    <labels>
+        <fullName>HCPCaptchaError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCaptchaError</shortDescription>
+        <value>Please complete the captcha to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>HCPCity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCity</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>HCPConfirmEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPConfirmEmailAddress</shortDescription>
+        <value>Confirm Email Address</value>
+    </labels>
+    <labels>
+        <fullName>HCPConfirmEmailNoMatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPConfirmEmailNoMatch</shortDescription>
+        <value>Email addresses do not match. Please re-enter to confirm.</value>
+    </labels>
+    <labels>
+        <fullName>HCPConfirmPasswordLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPConfirmPasswordLabel</shortDescription>
+        <value>Confirm Password *</value>
+    </labels>
+    <labels>
+        <fullName>HCPConsentEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPConsentEmail</shortDescription>
+        <value>privacy.switzerland@galderma.com</value>
+    </labels>
+    <labels>
+        <fullName>HCPCookiePolicyText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCookiePolicyText</shortDescription>
+        <value>Cookie Policy</value>
+    </labels>
+    <labels>
+        <fullName>HCPCookiePolicyUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCookiePolicyUrl</shortDescription>
+        <value>https://www.gainconnect.com/th/cookie-policy</value>
+    </labels>
+    <labels>
+        <fullName>HCPCouncilState</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCouncilState</shortDescription>
+        <value>UF of the Council</value>
+    </labels>
+    <labels>
+        <fullName>HCPCountry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCountry</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>HCPCpf</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPCpf</shortDescription>
+        <value>CPF</value>
+    </labels>
+    <labels>
+        <fullName>HCPDateOfBirth</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPDateOfBirth</shortDescription>
+        <value>Date Of Birth</value>
+    </labels>
+    <labels>
+        <fullName>HCPDearText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPDearText</shortDescription>
+        <value>Dear</value>
+    </labels>
+    <labels>
+        <fullName>HCPDoYouHaveQnsUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPDoYouHaveQnsUrlContactUs</shortDescription>
+        <value>https://www.galderma.com/contact-us</value>
+    </labels>
+    <labels>
+        <fullName>HCPDoYouHaveQuestions</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPDoYouHaveQuestions</shortDescription>
+        <value>Do you have questions or concerns?</value>
+    </labels>
+    <labels>
+        <fullName>HCPEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPEmailAddress</shortDescription>
+        <value>Email Address</value>
+    </labels>
+    <labels>
+        <fullName>HCPEmailAddressExists</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPEmailAddressExists</shortDescription>
+        <value>E-mail already exists.</value>
+    </labels>
+    <labels>
+        <fullName>HCPEmailAddressInvalid</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPEmailAddressInvalid</shortDescription>
+        <value>E-mail address is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>HCPEmailAddressPlaceHolder</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPEmailAddressPlaceHolder</shortDescription>
+        <value>Email *</value>
+    </labels>
+    <labels>
+        <fullName>HCPEmailvalidationSuccessUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPEmailvalidationSuccessUrl</shortDescription>
+        <value>https://test-gainconnect-th.pantheonsite.io/email-validation-success
+?lang=th&amp;errorCode=</value>
+    </labels>
+    <labels>
+        <fullName>HCPExecuteDrupalReg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPExecuteDrupalReg</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>HCPFPText</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPFPText</shortDescription>
+        <value>Please enter the email address you are using for your GAIN Connect account.</value>
+    </labels>
+    <labels>
+        <fullName>HCPFacebookLink</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPFacebookLink</shortDescription>
+        <value>https://www.facebook.com/Galderma-Aesthetics-Chile-100478325434471/</value>
+    </labels>
+    <labels>
+        <fullName>HCPFbLogo</fullName>
+        <categories>EmailTemplate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPFbLogo</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.file.force.com/servlet/servlet.ImageServer?id=015FS000000GLa0&amp;oid=00D1w0000000Q61&amp;lastMod=1707111815000</value>
+    </labels>
+    <labels>
+        <fullName>HCPFirstName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPFirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>HCPForgotPasswordTitle</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPForgotPasswordTitle</shortDescription>
+        <value>Do you wish to reset your GAIN Connect password?</value>
+    </labels>
+    <labels>
+        <fullName>HCPGaldermaAestheticsTeam</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGaldermaAestheticsTeam</shortDescription>
+        <value>Galderma Aesthetics Team</value>
+    </labels>
+    <labels>
+        <fullName>HCPGaldermaReservedRights</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGaldermaReservedRights</shortDescription>
+        <value>© Galderma 2023. All rights reserved.</value>
+    </labels>
+    <labels>
+        <fullName>HCPGaldermaThemeUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGaldermaThemeUrl</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.file.force.com/servlet/servlet.ImageServer?id=015FS000000GLa1&amp;oid=00D1w0000000Q61&amp;lastMod=1707111815000</value>
+    </labels>
+    <labels>
+        <fullName>HCPGaldermaWebsite</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGaldermaWebsite</shortDescription>
+        <value>Galderma Corporate Website</value>
+    </labels>
+    <labels>
+        <fullName>HCPGaldermaWebsiteUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGaldermaWebsiteUrl</shortDescription>
+        <value>https://www.galderma.com/</value>
+    </labels>
+    <labels>
+        <fullName>HCPGender</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPGender</shortDescription>
+        <value>Gender</value>
+    </labels>
+    <labels>
+        <fullName>HCPHeader</fullName>
+        <categories>Instructions</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPHeader</shortDescription>
+        <value>Welcome to the Galderma Aesthetics Healthcare Practitioner Portal</value>
+    </labels>
+    <labels>
+        <fullName>HCPInstaIcon</fullName>
+        <categories>EmailTemplate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPInstaIcon</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.file.force.com/servlet/servlet.ImageServer?id=015FS000000GLa2&amp;oid=00D1w0000000Q61&amp;lastMod=1707111815000</value>
+    </labels>
+    <labels>
+        <fullName>HCPInstagramLink</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPInstagramLink</shortDescription>
+        <value>https://www.instagram.com/galderma.aesthetics.us</value>
+    </labels>
+    <labels>
+        <fullName>HCPInstrcutionsArray</fullName>
+        <categories>Instructions</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPInstrcutionsArray</shortDescription>
+        <value>[&quot;Find expert product information and assets&quot;, &quot;Access validated education and training&quot;,&quot;Discover tools to help you run and grow your business&quot;]</value>
+    </labels>
+    <labels>
+        <fullName>HCPInvalidCPF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPInvalidCPF</shortDescription>
+        <value>CPF inválido</value>
+    </labels>
+    <labels>
+        <fullName>HCPInvalidMedicalId</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPInvalidMedicalId</shortDescription>
+        <value>Invalid Medical ID</value>
+    </labels>
+    <labels>
+        <fullName>HCPInvalidPhone</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPInvalidPhone</shortDescription>
+        <value>Invalid phone</value>
+    </labels>
+    <labels>
+        <fullName>HCPInvalidZip</fullName>
+        <categories>HCP Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPInvalidZip</shortDescription>
+        <value>Invalid Zip code</value>
+    </labels>
+    <labels>
+        <fullName>HCPLastName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPLastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>HCPLegalNotice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLegalNotice</shortDescription>
+        <value>https://www.gainconnect.com/th/legal-notice</value>
+    </labels>
+    <labels>
+        <fullName>HCPLegalNoticeText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLegalNoticeText</shortDescription>
+        <value>Legal information &amp; legal notice</value>
+    </labels>
+    <labels>
+        <fullName>HCPLicenseAgreementUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLicenseAgreementUrl</shortDescription>
+        <value>https://www.galderma-aesthetik.de/sites/behandlerportal/files/2021-02/lizenzvertrag-2021-02.pdf</value>
+    </labels>
+    <labels>
+        <fullName>HCPLicenseState</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLicenseState</shortDescription>
+        <value>LicenseState</value>
+    </labels>
+    <labels>
+        <fullName>HCPLoginErrorThailand</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLoginErrorThailand</shortDescription>
+        <value>Your login attempt has failed. Make sure the username and password are correct.</value>
+    </labels>
+    <labels>
+        <fullName>HCPLoginText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLoginText</shortDescription>
+        <value>LOGIN</value>
+    </labels>
+    <labels>
+        <fullName>HCPLogoForFooter</fullName>
+        <categories>EmailTemplate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPLogoForFooter</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.file.force.com/servlet/servlet.ImageServer?id=015FS000000GLZy&amp;oid=00D1w0000000Q61&amp;lastMod=1707111815000</value>
+    </labels>
+    <labels>
+        <fullName>HCPMedicalId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPMedicalId</shortDescription>
+        <value>Medical ID</value>
+    </labels>
+    <labels>
+        <fullName>HCPMiddleName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPMiddleName</shortDescription>
+        <value>Middle name</value>
+    </labels>
+    <labels>
+        <fullName>HCPMigratedUserMsg</fullName>
+        <categories>HCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPMigratedUserMsg</shortDescription>
+        <value>As part of our efforts to streamline access to Galderma websites, we kindly ask you to update your password. To initiate the process, please click Submit and check your email for further instructions to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>HCPMobileCountryCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPMobileCountryCode</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>HCPNoreplyEmail</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPNoreplyEmail</shortDescription>
+        <value>noreply-gc@gainconnect.com</value>
+    </labels>
+    <labels>
+        <fullName>HCPOnboardingJourneyUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPOnboardingJourneyUrl</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.file.force.com/servlet/servlet.ImageServer?id=015FS000000GLZz&amp;oid=00D1w0000000Q61&amp;lastMod=1707111815000</value>
+    </labels>
+    <labels>
+        <fullName>HCPOrderListHeading</fullName>
+        <categories>Instructions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPOrderListHeading</shortDescription>
+        <value>Here you will be able to:</value>
+    </labels>
+    <labels>
+        <fullName>HCPOrgName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPOrgName</shortDescription>
+        <value>Organization Name</value>
+    </labels>
+    <labels>
+        <fullName>HCPOrgWideEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPOrgWideEmailAddress</shortDescription>
+        <value>noreply-gc@gainconnect.com</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordInstructions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordInstructions</shortDescription>
+        <value>The password must be at least 10 characters long and contain at least one lowercase letter, one uppercase letter, one number and one special character.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordInvaliEmail</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordInvaliEmail</shortDescription>
+        <value>Invalid email address.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordLabel</fullName>
+        <categories>Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordLabel</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordLength</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordLength</shortDescription>
+        <value>10 characters</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordLower</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordLower</shortDescription>
+        <value>A lowercase letter</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordNoEmail</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordNoEmail</shortDescription>
+        <value>A user with that email or password does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordNoMatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordNoMatch</shortDescription>
+        <value>Passwords not matched</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordNumber</shortDescription>
+        <value>A number</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordSpecial</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordSpecial</shortDescription>
+        <value>A special character</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordSubmitBtnText</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordSubmitBtnText</shortDescription>
+        <value>SUBMIT</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordUpper</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordUpper</shortDescription>
+        <value>An uppercase letter</value>
+    </labels>
+    <labels>
+        <fullName>HCPPasswordWeak</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPasswordWeak</shortDescription>
+        <value>Password is weak</value>
+    </labels>
+    <labels>
+        <fullName>HCPPersonalInformation</fullName>
+        <categories>Section</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPersonalInformation</shortDescription>
+        <value>Personal Information</value>
+    </labels>
+    <labels>
+        <fullName>HCPPhoneNumber</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPPhoneNumber</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>HCPPreferredLanguage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPreferredLanguage</shortDescription>
+        <value>en_US</value>
+    </labels>
+    <labels>
+        <fullName>HCPPrivacyNotice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPrivacyNotice</shortDescription>
+        <value>https://www.gainconnect.com/th/privacy-notice</value>
+    </labels>
+    <labels>
+        <fullName>HCPPrivacyNoticeText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPrivacyNoticeText</shortDescription>
+        <value>Notice of Privacy</value>
+    </labels>
+    <labels>
+        <fullName>HCPProcessingErrorMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPProcessingErrorMsg</shortDescription>
+        <value>Error occurred while processing your data. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>HCPProfession</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPProfession</shortDescription>
+        <value>Profession</value>
+    </labels>
+    <labels>
+        <fullName>HCPProfessionalInformation</fullName>
+        <categories>Section</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPProfessionalInformation</shortDescription>
+        <value>Professional Information</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdCnfPara1</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdCnfPara1</shortDescription>
+        <value>An email with a link to reset your password will be sent to the email address you have submitted.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdCnfPara2</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdCnfPara2</shortDescription>
+        <value>If you don’t see an email from us within a few minutes, please check your SPAM folder. If the email did not reach you, please enter your email address again and submit.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdCnfPara3</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdCnfPara3</shortDescription>
+        <value>In case of any other issue, please don’t hesitate to contact us. We are happy to help you.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdContactUsText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdContactUsText</shortDescription>
+        <value>CONTACT US</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdEmailBestWishes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdEmailBestWishes</shortDescription>
+        <value>Best wishes,</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdEmailPara2</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdEmailPara2</shortDescription>
+        <value>If you did not request a reset of your password, please ignore this message.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdEmailSubject</fullName>
+        <categories>EmailTemplates</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdEmailSubject</shortDescription>
+        <value>GAIN Connect | Reset your password</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdPara1</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdPara1</shortDescription>
+        <value>As you requested, here is a link to reset your password for GAIN Connect.</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdSincerely</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdSincerely</shortDescription>
+        <value>Sincerely,</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdTeam</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdTeam</shortDescription>
+        <value>Galderma Aesthetics Team</value>
+    </labels>
+    <labels>
+        <fullName>HCPPwdThankYou</fullName>
+        <categories>Password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPPwdThankYou</shortDescription>
+        <value>We look forward to seeing you in GAIN connect.</value>
+    </labels>
+    <labels>
+        <fullName>HCPQuestionsText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPQuestionsText</shortDescription>
+        <value>If you believe a mistake has been made, or if you have any questions regarding your account, please use this link to contact us:</value>
+    </labels>
+    <labels>
+        <fullName>HCPRegisterLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPRegisterLabel</shortDescription>
+        <value>Register</value>
+    </labels>
+    <labels>
+        <fullName>HCPRegisterText</fullName>
+        <categories>Instrctions</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPRegisterText</shortDescription>
+        <value>Register with your data</value>
+    </labels>
+    <labels>
+        <fullName>HCPRegretText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPRegretText</shortDescription>
+        <value>We regret to inform you that we are unable to authenticate your account based on the information you have provided and cannot grant you access to GAIN Connect.</value>
+    </labels>
+    <labels>
+        <fullName>HCPRejectionContactUsText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPRejectionContactUsText</shortDescription>
+        <value>Contact us</value>
+    </labels>
+    <labels>
+        <fullName>HCPRejectionEmailTitle</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPRejectionEmailTitle</shortDescription>
+        <value>An issue has been found with your account</value>
+    </labels>
+    <labels>
+        <fullName>HCPRejectionThankYouText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPRejectionThankYouText</shortDescription>
+        <value>Sincerely,</value>
+    </labels>
+    <labels>
+        <fullName>HCPSecondEmailText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSecondEmailText</shortDescription>
+        <value>You will receive a second email when your account has been approved and you have access. We try to complete this process within 5 business days. You will not have access to GAIN Connect until you receive this second notification.</value>
+    </labels>
+    <labels>
+        <fullName>HCPSecondEmailTextBrazilPara1</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSecondEmailTextBrazilPara1</shortDescription>
+        <value>Você irá receber um segundo e-mail quando seu cadastro for validado.</value>
+    </labels>
+    <labels>
+        <fullName>HCPSecondEmailTextBrazilPara2</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSecondEmailTextBrazilPara2</shortDescription>
+        <value>Em alguns casos há divergências nas informações ou no documento incluído e por isso o acesso não é liberado, mas não se preocupe, nosso time entrará em contato para confirmar os dados e validar seu acesso o quanto antes!</value>
+    </labels>
+    <labels>
+        <fullName>HCPSiteCountry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSiteCountry</shortDescription>
+        <value>USA</value>
+    </labels>
+    <labels>
+        <fullName>HCPSiteProfileName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCP Site Profile Name</shortDescription>
+        <value>GainConnect Customers</value>
+    </labels>
+    <labels>
+        <fullName>HCPSpecialty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSpecialty</shortDescription>
+        <value>Specialty</value>
+    </labels>
+    <labels>
+        <fullName>HCPStartJourneyText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPStartJourneyText</shortDescription>
+        <value>We are excited to begin this journey with you.</value>
+    </labels>
+    <labels>
+        <fullName>HCPState</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPState</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>HCPSubjectValidationRejection</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPSubjectValidationRejection</shortDescription>
+        <value>GAIN Connect | Issue authenticating your account</value>
+    </labels>
+    <labels>
+        <fullName>HCPThankYouText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPThankYouText</shortDescription>
+        <value>Thank you for registering to participate in GAIN Connect!</value>
+    </labels>
+    <labels>
+        <fullName>HCPTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPTitle</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>HCPUnsubscribe</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPUnsubscribe</shortDescription>
+        <value>unsubscribe here.</value>
+    </labels>
+    <labels>
+        <fullName>HCPUnsubscribeLink</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPUnsubscribeLink</shortDescription>
+        <value>https://cloud.gainconnect.com/unsubscribe</value>
+    </labels>
+    <labels>
+        <fullName>HCPUnsubscribeText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPUnsubscribeText</shortDescription>
+        <value>You have received this email due to your registration with GAIN Connect. If 
+you do not wish to receive further emails, you can</value>
+    </labels>
+    <labels>
+        <fullName>HCPValidationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPValidationError</shortDescription>
+        <value>You can&apos;t log in at this time. We will notify you once your account is activated</value>
+    </labels>
+    <labels>
+        <fullName>HCPValueMissing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPValueMissing</shortDescription>
+        <value>Complete this field.</value>
+    </labels>
+    <labels>
+        <fullName>HCPVerificationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPVerificationError</shortDescription>
+        <value>You can&apos;t log in at this time. Your registration is under review.</value>
+    </labels>
+    <labels>
+        <fullName>HCPVerifyEmail</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPVerifyEmail</shortDescription>
+        <value>Verify email</value>
+    </labels>
+    <labels>
+        <fullName>HCPVerifyEmailUrl</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPVerifyEmailUrl</shortDescription>
+        <value>https://galderma-hcp--sit.sandbox.my.site.com/cl/email-verification?key=</value>
+    </labels>
+    <labels>
+        <fullName>HCPVerifyStep1of2</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPVerifyStep1of2</shortDescription>
+        <value>Please verify your email address</value>
+    </labels>
+    <labels>
+        <fullName>HCPVerifyYourEmail</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPVerifyYourEmailSubject</shortDescription>
+        <value>GAIN Connect | Verify your email</value>
+    </labels>
+    <labels>
+        <fullName>HCPWelcomeToGC</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPWelcomeToGC</shortDescription>
+        <value>Password reset for GAIN Connect</value>
+    </labels>
+    <labels>
+        <fullName>HCPZipCode</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HCPZipCode</shortDescription>
+        <value>Zip Code</value>
+    </labels>
+    <labels>
+        <fullName>HCPcontactUsText</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPContactUsText</shortDescription>
+        <value>You are welcome to contact us using this link</value>
+    </labels>
+    <labels>
+        <fullName>HCpCountryLoginUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCpCountryLoginUrl</shortDescription>
+        <value>https://www.gainconnect.com/th/user-login</value>
+    </labels>
+    <labels>
+        <fullName>HCpResetYourPwdLabel</fullName>
+        <categories>Email Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HCPResetYourPwdLabel</shortDescription>
+        <value>Reset your password</value>
+    </labels>
+    <labels>
+        <fullName>LoginDetailsHeader</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginDetailsHeader</shortDescription>
+        <value>Log in with your email and password:</value>
+    </labels>
+    <labels>
+        <fullName>LoginEmailLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginEmailLabel</shortDescription>
+        <value>Email Address</value>
+    </labels>
+    <labels>
+        <fullName>LoginEmailPlaceholderLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginEmailPlaceholderLabel</shortDescription>
+        <value>Email Address *</value>
+    </labels>
+    <labels>
+        <fullName>LoginError</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginError</shortDescription>
+        <value>Error occurred while logging you. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>LoginHeader</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginHeader</shortDescription>
+        <value>Here you will be able to:</value>
+    </labels>
+    <labels>
+        <fullName>LoginItem1</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginItem1</shortDescription>
+        <value>Find specialized product information and assets</value>
+    </labels>
+    <labels>
+        <fullName>LoginItem2</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginItem2</shortDescription>
+        <value>Zugang zu qualifizierter Ausbildung und Schulung erhalten</value>
+    </labels>
+    <labels>
+        <fullName>LoginItem3</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginItem3</shortDescription>
+        <value>Discover tools to help you run and grow your business</value>
+    </labels>
+    <labels>
+        <fullName>LoginLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginLabel</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>LoginPasswordLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginPasswordLabel</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>LoginPasswordPlaceholderLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginPasswordPlaceholderLabel</shortDescription>
+        <value>Password *</value>
+    </labels>
+    <labels>
+        <fullName>LoginTitle</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoginTitle</shortDescription>
+        <value>Welcome to Galderma&apos;s education and training platform for injection professionals</value>
+    </labels>
+    <labels>
+        <fullName>ResendVerificationLabel</fullName>
+        <categories>HCP Login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ResendVerificationLabel</shortDescription>
+        <value>Click here to send a new verification email</value>
+    </labels>
+    <labels>
+        <fullName>hcpSuccessUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>hcpSuccessUrl</shortDescription>
+        <value>https://www.gainconnect.com/</value>
+    </labels>
+</CustomLabels>

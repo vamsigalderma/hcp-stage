@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Language__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Language</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>en_US</fullName>
+                <default>true</default>
+                <label>English</label>
+            </value>
+            <value>
+                <fullName>de</fullName>
+                <default>false</default>
+                <label>Germany</label>
+            </value>
+            <value>
+                <fullName>cl</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>zh_CN</fullName>
+                <default>false</default>
+                <label>Chinese</label>
+            </value>
+            <value>
+                <fullName>br</fullName>
+                <default>false</default>
+                <label>Portuguese (Brazil)</label>
+            </value>
+            <value>
+                <fullName>co</fullName>
+                <default>false</default>
+                <label>Spanish (Colombia)</label>
+            </value>
+            <value>
+                <fullName>tw</fullName>
+                <default>false</default>
+                <label>Chinese (Traditional)</label>
+            </value>
+            <value>
+                <fullName>za</fullName>
+                <default>false</default>
+                <label>English (South Africa)</label>
+            </value>
+            <value>
+                <fullName>ae</fullName>
+                <default>false</default>
+                <label>English (United Arab Emirates)</label>
+            </value>
+            <value>
+                <fullName>mx</fullName>
+                <default>false</default>
+                <label>Spanish (Mexico)</label>
+            </value>
+            <value>
+                <fullName>sg</fullName>
+                <default>false</default>
+                <label>English (Singapore)</label>
+            </value>
+            <value>
+                <fullName>th</fullName>
+                <default>false</default>
+                <label>Thai</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Log In | GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"ad543cc3-1b53-486e-9dab-9b76025efa99\",\"columns\":[{\"UUID\":\"17e330ea-a760-41ac-8579-b34e6c04ae58\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpLoginForm",
+              "id" : "c480a293-6dcf-446d-96e2-1dcfaee6bce1",
+              "type" : "component"
+            } ],
+            "id" : "17e330ea-a760-41ac-8579-b34e6c04ae58",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ad543cc3-1b53-486e-9dab-9b76025efa99",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "0ffb55f3-f73d-42b7-b9a1-b464e0ece7e9",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Log In | GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "5ece388d-4bb3-40bf-8328-75511af61d1c",
+          "type" : "component"
+        } ],
+        "id" : "5efc00c7-ad7f-4d04-b910-f20a09dd686d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "cfc72289-e914-4c99-bf02-5f7f6086f49a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "6JfulgJqLcdmtmQUf4pVZlGdpHSP6v",
+    "viewType" : "login-main"
+  }
+}

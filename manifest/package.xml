@@ -783,7 +783,7 @@
 		<members>SharedDocuments/instalogo.png</members>
 		<name>Document</name>
 	</types>
-	<types>
+	<!--<types>
 		<members>GainConnect_Brazil1</members>
 		<members>GainConnect_Chile1</members>
 		<members>GainConnect_Colombia1</members>
@@ -796,7 +796,7 @@
 		<members>GainConnect_United_Arab_Emirates1</members>
 		<members>Galderma_General1</members>
 		<name>ExperienceBundle</name>
-	</types>
+	</types>-->
 	<types>
 		<members>Case_Record_Page1</members>
 		<members>Contact_Record_Page</members>

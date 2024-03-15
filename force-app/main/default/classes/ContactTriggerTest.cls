@@ -1,3 +1,8 @@
+/***************************************************************************************************
+* Name          : ContactTriggerTest
+* Description   : Class to test contact service. 
+* Date          : 03/07/2023             
+*********************************************************************************************************/
 @IsTest
 public class ContactTriggerTest {
 
@@ -82,11 +87,16 @@ public class ContactTriggerTest {
                 SELECT Id, Name, Email, CIAMId__c
                 FROM Contact
         ];
-
+		listOfContacts[0].isEmailVerified__c = true;
+        update listOfContacts;
+        Map<Id, Contact> oldMap = new Map<Id, Contact>();
+        for(contact conn :listOfContacts){
+            oldMap.put(conn.id,conn);
+        }
         System.assertEquals(2, listOfContacts.size(), 'No new Contact should have been created');
    		System.assertEquals('This contact has Phone Consent but no phone number filled, you should add the phone number.',
         contactUpsertResult[0].getErrors()[0].getMessage(), 'The error message is wrong');
-        ContactService.createAndInsertCasesForBrands(testContactList);
+        ContactService.createAndInsertCasesForBrands(testContactList,oldMap);
         
     }
     @IsTest
@@ -315,6 +325,190 @@ public class ContactTriggerTest {
         // ContactService.processContactPointConsentRecord(newContacts, OldMapContacts);
         Test.stopTest();
     }
+    @isTest
+    public static void closeCasesTest(){
+        list<contact> contacts = [select Id,trustLevel__c,isActive__c from contact];
+        list<contact> testConToUpdate = new List<contact>();
+        for(contact c:contacts){
+            c.trustLevel__c = 'FullyTrusted';
+            c.isActive__c = true;
+            testConToUpdate.add(c);
+        }
+        update contacts;
+        
+    } 
+
+    
+    @isTest
+    public static void createOrUpdateConsentsTest(){
+       Individual i =new Individual(
+           FirstName = 'Test',
+             LastName = 'Consent'
+        );
+        insert i;
+        
+      Contact contactTest = new Contact(
+            FirstName = 'Test',
+            LastName = 'Consent',
+            Email = 'test@consent.com',
+            BrandName__c = 'Cetaphil',
+            Phone = '7938597489',
+            HasOptedOutofEmail = true,
+            HasPhoneConsentRecord__c=true,
+            PrivacyConsent__c = true,
+            IndividualId=i.id
+        );
+        insert contactTest;
+        
+        BusinessBrand brand1 = new BusinessBrand(
+            Name = 'Cetaphil'
+        );
+        insert brand1;
+        
+       
+        
+        ContactPointPhone phones =new ContactPointPhone(
+            TelephoneNumber = '7938597489',
+            ParentId = i.Id
+        );
+        insert phones;
+        DataUsePurpose d= new DataUsePurpose(
+            Name='License Agreement'
+        );
+        insert d;
+        ContactPointConsent consent1 = new ContactPointConsent(
+            Name = 'consent1',
+            Contact__c = contactTest.Id,
+            PrivacyConsentStatus = 'OptIn',
+            CaptureContactPointType = 'Email',
+            ContactPointId = phones.Id,
+            BusinessBrandId = brand1.Id,
+            IsDuplicate__c=false,
+            DataUsePurposeId=d.id
+        );
+        insert consent1;
+    
+        List<Contact> newContacts = new List<Contact>();
+        Map<Id, Contact> OldMapContacts = new Map<Id, Contact>();
+        OldMapContacts.put(contactTest.Id, new Contact(id=contactTest.Id,FirstName = 'Test',
+            LastName = 'Consent',
+            Email = 'test@consent.com',
+            BrandName__c = 'Cetaphil',
+            Phone = '7938597489',
+            HasOptedOutofEmail = false,
+            et4ae5__HasOptedOutOfMobile__c=true,
+            LicenseAgreementConsent__c=true,
+            HasPhoneConsentRecord__c=true,
+            PrivacyConsent__c = false));
+        newContacts.add(contactTest);
+        ContactService.createOrUpdateConsents(newContacts,OldMapContacts);
+    }
+
+    @IsTest
+    private static void populateEmailVerificationKey_Test() {
+        Test.startTest();
+        Account testAccount = new Account(Name = 'test');
+        insert testAccount;
+
+        Contact testContact = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'Unknown', CIAMId__c = '12345678911111',phone='', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = true,
+                MailingCountry = 'Brazil', BrandName__c = 'GainConnect',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false);
+           Contact testContact1 = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'Unknown', CIAMId__c = '12345678911111', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = true,
+                MailingCountry = 'Brazil', BrandName__c = 'GainConnect',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false);
+
+        List<Contact> testContactList = new List<Contact>();
+        testContactList.add(testContact);
+       testContactList.add(testContact1);
+       ContactService.populateEmailVerificationKey(testContactList);
+
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void hcpInflightRegConsMigration_Test() {
+        Test.startTest();
+        Account testAccount = new Account(Name = 'test');
+        insert testAccount;
+
+        Contact testContact = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'ProcessManually', CIAMId__c = '12345678911111',phone='', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = false,
+                MailingCountry = 'Brazil', BrandName__c = 'GainConnect',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false,IsTest__c = false);
+           Contact testContact1 = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'ProcessManually', CIAMId__c = '123456789114555', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = false,
+                MailingCountry = 'Brazil', BrandName__c = 'Acne',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false,IsTest__c = false);
+        
+        List<Contact> testContactList = new List<Contact>();
+        testContactList.add(testContact);
+        testContactList.add(testContact1);
+        insert testContactList;
+
+        List<Contact> updateContactList = new List<Contact>();
+        for(contact con :testContactList){
+            con.isEmailVerified__c = true;
+            con.CIAMID__c = '12345678911455511';
+            updateContactList.add(con);
+        }
+       update updateContactList;
+
+        Map<Id, Contact> oldMap = new Map<Id, Contact>();
+        for(contact conn :testContactList){
+            oldMap.put(testContact.Id, new Contact(id=testContact.Id));
+            oldMap.put(testContact1.Id, new Contact(id=testContact1.Id));
+            //oldMap.put(testContact.Id, conn);
+        }
+
+        Map<Id, Contact> newMap = new Map<Id, Contact>();
+        for(contact conn :updateContactList){
+            newMap.put(testContact.Id, new Contact(id=testContact.Id));
+            newMap.put(testContact1.Id, new Contact(id=testContact1.Id));
+        }
+       
+        
+       ContactService.hcpInflightRegContactsMigration(testContactList,oldMap);
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void syncUserData_Test() {
+        Test.startTest();
+        Account testAccount = new Account(Name = 'test');
+        insert testAccount;
+
+        
+           Contact testContact1 = new Contact(FirstName = 'Mike', LastName = 'New', Email = 'test@testik.com', Email_External__c = 'test@testik.com',
+                TrustLevel__c = 'ProcessManually', CIAMId__c = '123456789114555', NPIId__c = 'A_test', AccountId = testAccount.Id, HasPhoneConsentRecord__c = false,
+                MailingCountry = 'Brazil', BrandName__c = 'Acne',ExternalAccountName__c='test',isEmailVerified__c = false, isVerificationEmailSent__c =false,IsTest__c = false,Business_Entity_Name__c ='testEntity');
+        
+        List<Contact> testContactList = new List<Contact>();
+        testContactList.add(testContact1);
+        insert testContactList;
+
+        List<Contact> updateContactList = new List<Contact>();
+        for(contact con :testContactList){
+            con.CIAMID__c = '12345678911455511';
+            con.Business_Entity_Name__c ='testEntity1';
+            con.BrandName__c = 'Acne';
+            updateContactList.add(con);
+        }
+       update updateContactList;
+
+        Map<Id, Contact> oldMap = new Map<Id, Contact>();
+        for(contact conn :testContactList){
+            oldMap.put(testContact1.Id, new Contact(id=testContact1.Id));
+            //oldMap.put(testContact.Id, conn);
+        }
+
+        Map<Id, Contact> newMap = new Map<Id, Contact>();
+        for(contact conn :updateContactList){
+            newMap.put(testContact1.Id, new Contact(id=testContact1.Id));
+        }
+       
+    
+       ContactService.syncUserData(newMap,oldMap);
+        Test.stopTest();
+    }
+
 
     
 }

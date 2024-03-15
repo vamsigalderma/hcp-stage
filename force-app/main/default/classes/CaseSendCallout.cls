@@ -81,7 +81,7 @@ global class CaseSendCallout {
             
             HttpRequest req = new HttpRequest();
             
-            req.setEndpoint('callout:Veeva1/services/data/v54.0/sobjects/ValidacaoMesclagem__c/IdCIAMGCP__c/' + cc.CIAMId__c);
+            req.setEndpoint('callout:Veeva1/services/data/v54.0/sobjects/ValidacaoMesclagem__c/IdCIAMGCP__c/' + cc.Id);
             req.setMethod('PATCH');
             req.setHeader('Content-Type', 'application/json');
             req.setBody(JSON.serialize(request));

@@ -1,0 +1,39 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://www.googletagmanager.com",
+      "sourceName" : "www.googletagmanager.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org",
+      "sourceName" : "cdn.cookielaw.org"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org/consent/e06905fe-68e6-4b4d-8405-3d42b6e3ec1e/OtAutoBlock.js",
+      "sourceName" : "cdn.cookielaw.org1"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google-analytics.com/analytics.js",
+      "sourceName" : "www.google-analytics.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.cookielaw.org/scripttemplates/202301.2.0/otBannerSdk.js",
+      "sourceName" : "cdn.cookielaw.org2"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.googletagmanager.com/gtag/js?id=G-4CEWXKPHH4&l=dataLayer&cx=c",
+      "sourceName" : "googletagmanager2"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google.com",
+      "sourceName" : "google"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.gstatic.com",
+      "sourceName" : "gstatic"
+    } ]
+  }
+}

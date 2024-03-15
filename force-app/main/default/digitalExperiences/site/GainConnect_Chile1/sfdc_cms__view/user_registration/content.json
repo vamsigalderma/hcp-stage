@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Registration  |  GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"a42203c3-b055-429b-82b7-ea5811cb39d5\",\"columns\":[{\"UUID\":\"be14023d-5d8f-450f-8e4a-7c937d35d59b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:lwcHcpUserRegistrationChile",
+              "id" : "4a294596-aca9-47bf-9343-01e044e0b117",
+              "type" : "component"
+            } ],
+            "id" : "be14023d-5d8f-450f-8e4a-7c937d35d59b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a42203c3-b055-429b-82b7-ea5811cb39d5",
+          "scopedBrandingSetId" : "Galderma_Chile",
+          "type" : "component"
+        } ],
+        "id" : "ffa74b47-457e-4044-b566-d3a204a262fd",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Registration  |  GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b71db026-68d0-4f53-aa97-9b9999abe8ea",
+          "type" : "component"
+        } ],
+        "id" : "3a16f2e7-0566-4883-867d-337a39f60014",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "4cfba3bd-4abf-4781-8dcc-787e92f1d145",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-user-registration"
+  }
+}

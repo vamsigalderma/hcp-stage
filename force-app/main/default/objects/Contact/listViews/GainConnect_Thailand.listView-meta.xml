@@ -27,4 +27,7 @@
         <value>0</value>
     </filters>
     <label>GainConnect Thailand</label>
+    <sharedTo>
+        <group>HCP_Thailand</group>
+    </sharedTo>
 </ListView>

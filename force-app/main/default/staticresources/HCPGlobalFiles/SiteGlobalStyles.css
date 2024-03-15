@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Galderma';
+    src: url('/sfsites/c/resource/HCPGlobalFiles/GALDERMA-Regular.ttf');
+}
+@font-face {
+    font-family: 'Segma';
+    src: url('/sfsites/c/resource/HCPGlobalFiles/Segma-Regular.ttf');
+}
+:root {
+    --dxp-g-destructive: #e76468;
+}
+body {
+    max-width: 1550px;
+    margin: 0 auto !important;
+    --dxp-s-form-element-color-border-focus: #809ee2;
+    --slds-c-input-shadow-focus:  0 0 0 0.25rem rgba(0,60,197,0.25);
+    --slds-g-color-brand-base-60:  #809ee2;
+    --dxp-s-body-font-family: "Segma";
+    --slds-g-color-error-base-40: rgba(0,60,197,0.25);
+    color: #181b21!important;
+}
+.slds-has-error .slds-input:active, .slds-has-error .slds-input:focus {
+    --slds-c-input-shadow: 0 0 0 0.25rem rgba(0,60,197,0.25);
+    box-shadow: var(--slds-c-input-shadow);
+}
+combobox__input:focus {
+    border-color: var(--slds-g-color-brand-base-60,#1b96ff);
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(0,60,197,0.25) !important;
+    box-shadow: var(--slds-c-input-shadow);
+}
+input, select {
+    height: 38px!important;
+    padding-top: 0.375rem!important;
+    padding-bottom: 0.375rem!important;
+}
+.slds-select_container:before {
+    border-bottom: none!important;
+   top: calc((1.75rem / 2) - 6px);
+}
+.slds-select_container:after {
+        border-top: none!important;
+    bottom: calc((1.75rem / 2) - 6px);
+}
+.slds-select_container .slds-select {
+    -moz-appearance: none;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+    /* -webkit-appearance: menulist-button; */
+    width: 100%;
+    /* -webkit-appearance: none; */
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") no-repeat right;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    background-color:white;
+}

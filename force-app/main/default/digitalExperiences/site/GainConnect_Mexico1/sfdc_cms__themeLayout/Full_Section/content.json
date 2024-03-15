@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Full Section",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"74c8ef26-10a1-495c-81d6-d7a91fc50dc8\",\"columns\":[{\"UUID\":\"a9d8e97e-fd8c-4c7d-b620-965ed6a44600\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "buttonLabel" : "Get a quote",
+                "buttonRedirectPageAPIName" : "Home",
+                "menuName" : "Default_Navigation1"
+              },
+              "definition" : "c:navigationMenu",
+              "id" : "f5e0dc8c-894e-4a17-b71d-986641f94b7e",
+              "type" : "component"
+            } ],
+            "id" : "a9d8e97e-fd8c-4c7d-b620-965ed6a44600",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "74c8ef26-10a1-495c-81d6-d7a91fc50dc8",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "8217c9d7-f86e-45ac-a6f6-bd38184eac94",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"ed4f030a-d543-42e3-8635-8616b421d5d6\",\"columns\":[{\"UUID\":\"2ccc94f5-bd3a-42cb-b602-d2d48387105b\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "2ccc94f5-bd3a-42cb-b602-d2d48387105b",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ed4f030a-d543-42e3-8635-8616b421d5d6",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "eecfc2b4-3069-43bc-929f-4eded13471e5",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "c:customThemeLayout",
+      "id" : "ce3d31ed-13a4-4a7e-99f3-773a34e939f4",
+      "type" : "component"
+    }
+  }
+}

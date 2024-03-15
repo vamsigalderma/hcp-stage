@@ -1,0 +1,77 @@
+<messaging:emailTemplate subject="GAIN CONNECT | Welcome to GAIN Connect" recipientType="Contact" relatedToType="Account"
+language="{!recipient.PreferredLanguage__c}" renderUsingSystemContextWithoutSharing="true">
+<messaging:htmlEmailBody >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+       <META name="from" content="{!$Label.HCPSubjectValidationRejection} <{!$Label.HCPNoreplyEmail}>" />
+       <META name="subject" content="Your GainConnect Account is ready!!" />
+             <META charset="utf-8"/>
+    </head>
+    <body style="font-family: Arial; ">
+        <div style="margin: 0 auto; max-width: 693px;">
+            <div style="background: #fff; border-radius: 3px; font-size:15px; line-height: 16px; text-align:center;">
+                <!--padding:30px 30px 29px;margin: 0px auto;-->
+                <div style="">
+                    <div style="text-align:center">
+                        <apex:image url="{!$Label.HCPGaldermaThemeUrl}" /> 
+                    </div><br></br>
+                    <div style="text-align:center">
+                        <apex:image url="{!$Label.HCPOnboardingJourneyUrl}" /> 
+                    </div>
+                    <p style="text-align:center"><b>Welcome to GAIN Connect.</b></p>
+                    <p>{!$Label.HCPDearText} {!recipient.FirstName} {!recipient.LastName},</p>
+                    <p> We are excited to welcome you to GAIN Connect. This exclusive online space is developed for experts by experts and offers you the keys to take both your knowledge and business to the next level. Our community values you highly, and you will be the first to hear of any new resources that become available.</p>
+                        <p>Please log in, explore the webpages and feel free to reach out if you have any comments or questions
+            </p>
+                        <p style="padding-top:10px;">
+                        <a href="https://sf-login-gainconnect-global.pantheonsite.io/samllogin" 
+                        style="background-color: #181b21;padding: 10px;color: #FFF;  
+                        text-decoration: none;"> Login </a></p>
+                        
+                        <p style="padding-top:10px;">We look forward to seeing you in GAIN Connect.</p>
+    
+                        <p style="padding-top:10px;">Best wishes,</p>
+                        <p>Galderma Aesthetics Team</p>
+                </div>
+            </div>
+            <div aria-label="Site footer" id="footer" role="contentinfo" style="color: #faf9f8; background-color: #181b21;padding: 40px 80px;text-align:center;">
+                <div class="region region-footer">
+                    <div id="block-footerblock" class="block block-galderma-module block-footer-block">
+                        <div class="footer">
+                            <div class="row align-items-center mb-5 mx-0">
+                                <div class="col-sm-6 logo" style="float: left !important;">
+                                    <img alt="galderma logo" src="{!$Label.HCPLogoForFooter}"></img>
+                                </div>
+                                <div class="col-sm-6 socialmedia-icons" style="float: right !important;"><a href="{!$Label.HCPInstagramLink}" target="_blank">
+                                    <img alt="instagram icon" src="{!$Label.HCPInstaIcon}"></img>
+                                    </a> 
+                                    <a href="{!$Label.HCPFacebookLink}" >
+                                    <img alt="facebook icon" src="{!$Label.HCPFbLogo}"></img>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row text-center" style="clear: both;margin-top:5%;">
+                                <div style="text-align:center;max-width: 530px;margin-bottom: 1.5rem;line-height: 40px;display: inline-block;">
+                                {!$Label.HCPUnsubscribeText} <a href="{!$Label.HCPUnsubscribeLink}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPUnsubscribe}</a><br></br>
+                                <a class="btn-link" style="text-align:center;border: 1px solid #f8f8f8;margin-bottom: 72px;padding: 16px 32px;color: #ffffff;letter-spacing: 2px;" href="{!$Label.HCpCountryLoginUrl}" target="_blank" id="btn-get">{!$Label.HCPLoginText} </a>
+                                </div>
+                                <div id="footer-links-container" style="display: flex; padding-bottom: 32px; border-bottom: 1px solid #ffffff; margin-bottom: 32px;">
+                                    <a href="{!$Label.HCPGaldermaWebsiteUrl}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPGaldermaWebsite}</a> 
+                                    <a href="{!$Label.HCPLegalNotice}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPLegalNoticeText}</a> 
+                                    <a href="{!$Label.HCPPrivacyNotice}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPPrivacyNoticeText}</a> 
+                                    <a href="{!$Label.HCPCookiePolicyUrl}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPCookiePolicyText}</a> 
+                                </div>
+                                <p class="mb-0" id="copyright" style="text-align:center;">{!$Label.HCPGaldermaReservedRights}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

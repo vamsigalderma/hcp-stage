@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Full Section",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"ee7a4a10-cbc3-49da-adca-39abe0185498\",\"columns\":[{\"UUID\":\"fd29678d-0e73-4c78-9824-e0239d73a36a\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "buttonLabel" : "",
+                "buttonRedirectPageAPIName" : "",
+                "menuName" : "Chile_Menu"
+              },
+              "definition" : "c:navigationMenu",
+              "id" : "24688538-6a7d-4b3d-9dcd-eb11cc24ee46",
+              "type" : "component"
+            } ],
+            "id" : "fd29678d-0e73-4c78-9824-e0239d73a36a",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ee7a4a10-cbc3-49da-adca-39abe0185498",
+          "scopedBrandingSetId" : "Galderma_Chile",
+          "type" : "component"
+        } ],
+        "id" : "5bf24ed7-f638-49a4-9219-a8b625cfa220",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"fafee82d-71cd-495c-8bd3-f6f0eb51eb01\",\"columns\":[{\"UUID\":\"49273046-87ec-48ec-a6a6-c578d4aad7e4\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "49273046-87ec-48ec-a6a6-c578d4aad7e4",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fafee82d-71cd-495c-8bd3-f6f0eb51eb01",
+          "scopedBrandingSetId" : "Galderma_Chile",
+          "type" : "component"
+        } ],
+        "id" : "955ce284-2947-4442-bf59-4a68f8878a4a",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "c:customThemeLayout",
+      "id" : "d1206b78-e436-495f-b0ff-58c2009ee0f7",
+      "type" : "component"
+    }
+  }
+}

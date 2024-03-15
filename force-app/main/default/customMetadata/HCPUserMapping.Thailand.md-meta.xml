@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Thailand</label>
+    <protected>false</protected>
+    <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">Thailand</value>
+    </values>
+    <values>
+        <field>LanguageLocaleKey__c</field>
+        <value xsi:type="xsd:string">en_US</value>
+    </values>
+    <values>
+        <field>LocaleSidKey__c</field>
+        <value xsi:type="xsd:string">th_TH</value>
+    </values>
+    <values>
+        <field>LoginUrl__c</field>
+        <value xsi:type="xsd:string">https://test-gainconnect-th.pantheonsite.io/samllogin</value>
+    </values>
+    <values>
+        <field>Permission_Set_Name__c</field>
+        <value xsi:type="xsd:string">GainConnect_Thailand_Access</value>
+    </values>
+    <values>
+        <field>TimeZoneSidKey__c</field>
+        <value xsi:type="xsd:string">Asia/Bangkok</value>
+    </values>
+</CustomMetadata>

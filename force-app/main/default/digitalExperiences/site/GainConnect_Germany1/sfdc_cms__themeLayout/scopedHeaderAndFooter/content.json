@@ -1,0 +1,81 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "sectionConfig" : "{\"UUID\":\"5cfca4cf-9568-42d3-a085-8b7ca8dfa187\",\"columns\":[{\"UUID\":\"b04b4acf-5ac1-430d-b1f4-bdc25e9c6346\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "buttonLabel" : "Get a quote",
+                "buttonRedirectPageAPIName" : "Home",
+                "menuName" : "Default_Navigation"
+              },
+              "definition" : "c:navigationMenu",
+              "id" : "4d27e342-727e-4750-8116-6bd61e20c3b2",
+              "type" : "component"
+            } ],
+            "id" : "b04b4acf-5ac1-430d-b1f4-bdc25e9c6346",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5cfca4cf-9568-42d3-a085-8b7ca8dfa187",
+          "scopedBrandingSetId" : "Galderma1",
+          "type" : "component"
+        } ],
+        "id" : "6e594f49-9e9c-44b4-bc3b-117f7ac083a9",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"4d9d7a94-784c-4076-af84-b1959f7caad9\",\"columns\":[{\"UUID\":\"0183eee0-119a-4dbf-a6b4-7e84752eda64\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "0183eee0-119a-4dbf-a6b4-7e84752eda64",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4d9d7a94-784c-4076-af84-b1959f7caad9",
+          "scopedBrandingSetId" : "Galderma1",
+          "type" : "component"
+        } ],
+        "id" : "9a9a5c7e-8d84-48b6-aa26-e2c0a6d44ee5",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "bec64e58-c6eb-45ac-9300-5073a14ed0f0",
+      "type" : "component"
+    }
+  }
+}

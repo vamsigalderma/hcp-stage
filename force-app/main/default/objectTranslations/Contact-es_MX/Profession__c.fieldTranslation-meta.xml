@@ -4,7 +4,7 @@
     <name>Profession__c</name>
     <picklistValues>
         <masterLabel>Aesthetic Physician</masterLabel>
-        <translation></translation>
+        <translation>Médico Estético</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Alternative Practitioner</masterLabel>
@@ -20,7 +20,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Clinic Manager</masterLabel>
-        <translation></translation>
+        <translation>Administrativo de Clínica</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Consultant</masterLabel>
@@ -40,7 +40,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Dermatologist</masterLabel>
-        <translation></translation>
+        <translation>Dermatólogo</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
@@ -112,7 +112,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Others</masterLabel>
-        <translation></translation>
+        <translation>Otro</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Otorhinolaryngologist</masterLabel>
@@ -144,7 +144,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Plastic Surgeon</masterLabel>
-        <translation></translation>
+        <translation>Cirujano Plástico</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Reimbursement specialist</masterLabel>

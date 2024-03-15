@@ -1,0 +1,57 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Full Sections",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"f9dd6134-38cc-4034-9e09-1a04043381aa\",\"columns\":[{\"UUID\":\"bf442e10-c0f7-4149-b791-476c82b02cac\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "bf442e10-c0f7-4149-b791-476c82b02cac",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f9dd6134-38cc-4034-9e09-1a04043381aa",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "ee7b15a3-054d-4415-9df6-d40e69f4823c",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"cfe7e6b6-9b22-4a09-9a1e-fdbd18ab5ad0\",\"columns\":[{\"UUID\":\"dbdcfd80-acf9-4830-8418-4ed843882f4b\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "dbdcfd80-acf9-4830-8418-4ed843882f4b",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cfe7e6b6-9b22-4a09-9a1e-fdbd18ab5ad0",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "f026b1d6-8a00-4684-8378-b8772e0af99c",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "c:customThemeLayout",
+      "id" : "311c66d5-cd95-4cb0-acbf-c8f3ebb49fa7",
+      "type" : "component"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_cms__languageSettings",
+  "title" : "LanguageContent",
+  "contentBody" : {
+    "defaultLocale" : "en_AE",
+    "languages" : [ {
+      "isActive" : true,
+      "isAuthoringOnly" : false,
+      "label" : "English (United Arab Emirates) (AE)",
+      "locale" : "en_AE"
+    } ]
+  }
+}

@@ -8,7 +8,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Alternative Practitioner</masterLabel>
-        <translation></translation>
+        <translation>Heilpraktiker</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Biomedical Scientist</masterLabel>
@@ -44,7 +44,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
-        <translation></translation>
+        <translation>Arzt</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Executive</masterLabel>

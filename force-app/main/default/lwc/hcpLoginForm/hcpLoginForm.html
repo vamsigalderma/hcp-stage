@@ -1,0 +1,131 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <div style="max-width: 1600px;width:100%; margin: 0 auto">
+            
+        </div>
+        <template if:true={isLoading}>
+            <!-- <lightning-spinner alternative-text="Loading" variant="brand" size="large" class="slds-align_absolute-center"></lightning-spinner> -->
+            <div class="loader">
+                <div class="loading spinner-border"></div>
+            </div>
+        </template>
+        <!-- Login Form -->
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-medium-size_1-of-2 slds-form" >
+        <div style="padding: 1% !important; margin: 0 1% !important;">
+            <!-- Instructions -->
+            <div style="margin-bottom: 18px;">
+                <img src={galdermaLogo}>
+            </div>
+            <div>
+                <h3 class="header" style="font-family:Galderma; margin-bottom:34px!important;">{logintitle}</h3>
+                <p class="orderedListSubHead">{loginheader}</p>
+                <ul class="instrcutions-list">
+                    <li  class="orderedListSubHead padding-li">{loginitem1}</li>
+                    <li  class="orderedListSubHead padding-li">{loginitem2}</li>
+                    <li  class="orderedListSubHead padding-li">{loginitem3}</li>
+                </ul>
+                <p class="orderedListSubHeader">{logindetailsheader}
+                </p>
+                <form>
+                     <!-- login details-->
+                <div class="slds-form-element slds-form-element_stacked form-item">
+                    <lightning-input 
+                        type="text" 
+                        label={loginemaillabel}
+                        class="email-address reg-input wid-80"
+                        required="true"
+                        onblur={validateEmailAddress}
+                        onchange={handleUserNameChange}
+                        message-when-value-missing={hcpValueMissing}
+                        onkeydown={validateEmailAddressOnEnter}
+                        variant="label-hidden"
+                        placeholder={loginemailplaceholderlabel}
+                        >
+                    </lightning-input>
+                </div>
+                <div class="slds-form-element slds-form-element_stacked form-item">
+                    <lightning-input 
+                        type="password" 
+                        label={loginpasswordlabel}
+                        class="reg-input wid-80 user-password"
+                        required="true"
+                        onchange={handlePasswordChange}
+                        message-when-value-missing={hcpValueMissing}
+                        variant="label-hidden"
+                        placeholder={loginpwdplaceholderlabel}
+                        >
+                    </lightning-input>
+                </div>
+                <template if:true={migratedUser}>
+                    <div class="slds-form-element slds-form-element_stacked form-item error-message wid-80" style="color:#e76468;">
+                        {hcpMigratedUserMsg}
+                    </div>
+                </template>
+
+                <template if:true={NotVerifiedUser}>
+                    <div class="slds-form-element slds-form-element_stacked form-item error-message wid-80" style="color:#e76468;">
+                      {hcpVerificationError}
+                     </div>
+                  </template>
+
+                  <template if:true={NotValidatedUser}>
+                      <div class="slds-form-element slds-form-element_stacked form-item error-message wid-80" style="color:#e76468;">
+                        {hcpValidationError}
+                       </div>
+                    </template>
+                
+                <div class="slds-form-element slds-form-element_stacked form-item" >
+                    <div class="js-form-item wid-80" style="margin-bottom : 2em">
+                        <a href={forgotpasswordlink} class="login_link forgot_password_link" target="_self" style="text-decoration: underline;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                   {forgotpasswordlabel}
+                                </font>
+                            </font>
+                        </a>
+                    </div>
+                    <div style="margin-top : 1em; margin-bottom : 1em;">
+                        <input  
+                            type="submit" 
+                            id="edit-submit-mobile" 
+                            name="op" 
+                            value={loginlabel}
+                            class="reg-button wid-80"
+                            onclick={login}
+                        >
+                    </div> 
+                        <div class="error-message-submit error-hide wid-80" style="color:#e76468;">
+                            {loginerror}
+                        </div>
+
+                        <div class="account_login_link">
+                            <a href={userreglink} class="a-hyper-link" target="_self" style="margin-top:15px!important;font-size: 15px"><b>{accountcreationlabel}</b></a>
+                        </div>
+                        <div class="account_login_link" style="padding-top:0.5em!important;font-size: 15px ">
+                           <a href={resendemaillink} class="a-hyper-link" target="_self" >
+                             {resendverificationlabel}</a>
+                        </div>
+                </div>
+                </form>
+               
+            </div>
+        </div>
+            
+        </div>
+        <!-- Image -->
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-medium-size_1-of-2 slds-form">
+            <div >
+                <img src={loginImage} style="width:100%">
+            </div>
+        </div>
+    </div>
+    <template if:true={loginSiteBrazil}>
+        <div id="block-galdermastore" class="block block-block-content block-block-content79fcc4c4-fb51-4111-8978-088cb288e7e2">
+        
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="floating-icon-bar">
+                <a style="color: #fff !important;"  class="side-head-text galdermastore-link" href="https://www.mygaldermastore.com.br/" target="_blank">Compre nossos produtos</a></div>
+            </div>
+    
+        </div>
+    </template>
+</template>

@@ -1,0 +1,63 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Registration  |  GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"9d1bf50f-1470-4f00-ba13-17ce1e41f108\",\"columns\":[{\"UUID\":\"dc412486-b4cb-42ef-8afa-e8c0dafd38d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "isVisible" : true
+                }
+              },
+              "definition" : "c:lwcHcpUserRegistrationColombia",
+              "id" : "ed553d98-e531-4763-8162-41ad1319f7d2",
+              "type" : "component"
+            } ],
+            "id" : "dc412486-b4cb-42ef-8afa-e8c0dafd38d8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9d1bf50f-1470-4f00-ba13-17ce1e41f108",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "291e0d3c-96c0-4939-853a-c802374117e2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Registration  |  GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "4ec61fbd-e074-418f-8737-4147fc4f3327",
+          "type" : "component"
+        } ],
+        "id" : "b8881c64-cb27-4b39-9eb1-70adf049a946",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "378dd3fd-8d28-4879-ba2b-b2e33c7a66fd",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-user-registration"
+  }
+}

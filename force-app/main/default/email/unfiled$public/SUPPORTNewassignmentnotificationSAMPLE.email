@@ -1,6 +1,6 @@
 *** NEW CASE ASSIGNMENT NOTIFICATION ***  
 
-The following case has been assigned to you.  
+The following case has been assigned to {!Case.OwnerFullName}.  
 Company:  {!Account.Name} 
 Contact Name:  {!Contact.Name} 
 Case #:  {!Case.CaseNumber} 

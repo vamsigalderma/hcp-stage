@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_cms__languageSettings",
+  "title" : "LanguageContent",
+  "contentBody" : {
+    "defaultLocale" : "es_CO",
+    "languages" : [ {
+      "isActive" : true,
+      "isAuthoringOnly" : false,
+      "label" : "Spanish (Colombia) (CO)",
+      "locale" : "es_CO"
+    } ]
+  }
+}

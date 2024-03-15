@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
+        <fullName>Brazil_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Brazil Sharing Rule</label>
+        <sharedTo>
+            <group>HCP_Brazil</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chile</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chile</label>
+        <sharedTo>
+            <group>HCP_Chile</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Chile</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Colombia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Colombia</label>
+        <sharedTo>
+            <group>HCP_Colombia</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Colombia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>GainConnect_Brazil</fullName>
         <accessLevel>Edit</accessLevel>
         <label>GainConnect Brazil</label>
@@ -40,6 +98,58 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
+        <fullName>Germany</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Germany</label>
+        <sharedTo>
+            <group>HCP_Germany</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Germany</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Mexico</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Mexico</label>
+        <sharedTo>
+            <group>HCP_Mexico</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Mexico</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Records_for_Acne</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Records for Acne</label>
+        <sharedTo>
+            <group>Acne</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>Acne</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>Records_for_Cetaphil</fullName>
         <accessLevel>Read</accessLevel>
         <label>Records for Cetaphil</label>
@@ -55,7 +165,7 @@
     </sharingCriteriaRules>
     <sharingCriteriaRules>
         <fullName>Records_for_GainConnect</fullName>
-        <accessLevel>Read</accessLevel>
+        <accessLevel>Edit</accessLevel>
         <label>Records for GainConnect</label>
         <sharedTo>
             <group>GainConnect</group>
@@ -111,6 +221,210 @@
             <field>MailingCountry</field>
             <operation>equals</operation>
             <value>South Africa</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_With_GainConnect_BR_Agency</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing With GainConnect BR Agency</label>
+        <sharedTo>
+            <group>GainConnect_BR_Agency</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Brazil</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>equals</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_With_GainConnect_US_Agency</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing With GainConnect US Agency</label>
+        <sharedTo>
+            <group>GainConnect_US_Agency</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>equals</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_With_Oracea_Epsolay_US_Agency</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing With Oracea Epsolay US Agency</label>
+        <sharedTo>
+            <group>Oracea_Epsolay_US_Agency</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>equals</operation>
+            <value>Oracea</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>equals</operation>
+            <value>Epsolay</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Singapore</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Singapore</label>
+        <sharedTo>
+            <group>HCP_Singapore</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Singapore</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>South_Africa</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>South Africa</label>
+        <sharedTo>
+            <group>HCP_South_Africa</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>South Africa</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Taiwan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Taiwan</label>
+        <sharedTo>
+            <group>HCP_Taiwan</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Thailand</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Thailand</label>
+        <sharedTo>
+            <group>HCP_Thailand</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Thailand</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UAE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UAE</label>
+        <sharedTo>
+            <group>HCP_UAE</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10) AND 11</booleanFilter>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>UAE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Bahrain</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Egypt</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Iraq</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Jordan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Kuwait</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Lebanon</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Oman</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Qatar</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MailingCountry</field>
+            <operation>equals</operation>
+            <value>Saudi Arabia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tech_Brand_Name__c</field>
+            <operation>contains</operation>
+            <value>GainConnect</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

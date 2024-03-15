@@ -1,0 +1,61 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Forgot Password",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"39e4c4b1-5329-457c-b017-01fbf50a0964\",\"columns\":[{\"UUID\":\"71266cd3-17df-4806-8ba9-f05da62f2b2a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpForgotPassword",
+              "id" : "edb45749-8828-4447-be73-4eaa45ecec40",
+              "type" : "component"
+            } ],
+            "id" : "71266cd3-17df-4806-8ba9-f05da62f2b2a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "39e4c4b1-5329-457c-b017-01fbf50a0964",
+          "type" : "component"
+        } ],
+        "id" : "4bb3c314-dc92-4581-a650-bed3400c5414",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Forgot Password",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "da9198dc-837e-47d0-836d-bd02ce6e4faa",
+          "type" : "component"
+        } ],
+        "id" : "778af2a0-f995-403b-aa44-eaf2d5617549",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "252020ba-3115-4af3-862c-5f6597c0561f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "V468stQXSvQ9hjNEfisZAoxz0bzBHg",
+    "viewType" : "forgot-password"
+  }
+}

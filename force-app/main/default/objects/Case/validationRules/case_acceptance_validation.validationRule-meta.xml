@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>case_acceptance_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISNEW()), 
+RecordType.Name = &apos;HCP Validation&apos;,
+ISBLANK(Owner:User.Id),
+ISCHANGED(Status), 
+INCLUDES(Contact.BrandName__c,&apos;GainConnect&apos;),
+Contact.MailingCountry != &apos;Brazil&apos;,
+NOT($Permission.Skip_Triggers_Flows),
+CONTAINS($Label.HCPActiveMarkets , Contact.MailingCountry)
+
+
+)</errorConditionFormula>
+    <errorMessage>Case Acceptance Required: Please accept the case before attempting to change its status.</errorMessage>
+</ValidationRule>

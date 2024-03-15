@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Full Section",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"b8bf01ae-3189-454c-ac75-d35e327adcd3\",\"columns\":[{\"UUID\":\"204ffae1-bb01-4e46-b2b8-4474b34b81d0\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "buttonLabel" : "Get a quote",
+                "buttonRedirectPageAPIName" : "Home",
+                "dxpStyle" : {
+                  "isVisible" : true
+                },
+                "menuName" : "Colombia_Menu"
+              },
+              "definition" : "c:navigationMenu",
+              "id" : "d5d23a0d-c9b6-4d73-ae64-0169062b67bb",
+              "type" : "component"
+            } ],
+            "id" : "204ffae1-bb01-4e46-b2b8-4474b34b81d0",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b8bf01ae-3189-454c-ac75-d35e327adcd3",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "0fcf5bc1-27e6-44dc-8591-ca6fd2567c2a",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"78ba5df0-0d65-45c5-900e-68e1bc0d38e4\",\"columns\":[{\"UUID\":\"a0b6da9c-b41f-4240-a40e-76c340630d7c\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "a0b6da9c-b41f-4240-a40e-76c340630d7c",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "78ba5df0-0d65-45c5-900e-68e1bc0d38e4",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "25ca33cc-b6b8-4f1d-a5a9-4a01bcd73bfd",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "c:customThemeLayout",
+      "id" : "6d87c4ae-9110-4468-953b-20d66b006873",
+      "type" : "component"
+    }
+  }
+}

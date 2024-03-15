@@ -1,0 +1,43 @@
+@import 'c/hcpStyleUtility';
+/*.pr-box {
+    font: 13px/16px sans-serif;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    width: 300px;
+    max-width: 100%;
+}
+.pr-box-inner {
+    margin-top: 6px;
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.pr-box ul {
+    padding: 7px;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.pr-box ul li {
+    list-style: none;
+    padding: 7px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.pr-box ul li span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    border-radius: 100%;
+    margin-right: 15px;
+}*/

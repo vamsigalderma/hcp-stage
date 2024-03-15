@@ -22,4 +22,7 @@
         <value>South Africa</value>
     </filters>
     <label>GainConnect South Africa</label>
+    <sharedTo>
+        <group>HCP_South_Africa</group>
+    </sharedTo>
 </ListView>

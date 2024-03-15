@@ -20,7 +20,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Clinic Manager</masterLabel>
-        <translation></translation>
+        <translation>Clinic Manager</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Consultant</masterLabel>
@@ -44,7 +44,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
-        <translation></translation>
+        <translation>Doctor</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Executive</masterLabel>

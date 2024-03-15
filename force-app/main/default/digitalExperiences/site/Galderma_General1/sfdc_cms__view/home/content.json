@@ -1,0 +1,61 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e041bbc0-095d-4586-9112-21110b900c23\",\"columns\":[{\"UUID\":\"8600cf2e-f7e5-4a39-9476-2d0c6ecd7c0e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:lwcHcpGeneralHomeComponent",
+              "id" : "dfe00eba-f4df-4aaf-8814-e06ea84159cb",
+              "type" : "component"
+            } ],
+            "id" : "8600cf2e-f7e5-4a39-9476-2d0c6ecd7c0e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e041bbc0-095d-4586-9112-21110b900c23",
+          "type" : "component"
+        } ],
+        "id" : "cecf858a-82b4-46dc-ac4e-d83e9804654a",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6dce185d-8438-4cf4-9746-2076008dd2b2",
+          "type" : "component"
+        } ],
+        "id" : "ffc121e8-b62e-456f-b9c6-1062f99b5568",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "90537a91-18f2-4c1a-9c6e-67b99ebc5171",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "V468stQXSvQ9hjNEfisZAoxz0bzBHg",
+    "viewType" : "home"
+  }
+}

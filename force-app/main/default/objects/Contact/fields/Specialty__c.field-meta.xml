@@ -4,8 +4,8 @@
     <externalId>false</externalId>
     <label>Specialty</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
@@ -79,6 +79,151 @@
                 <fullName>Scholarship</fullName>
                 <default>false</default>
                 <label>Scholarship</label>
+            </value>
+            <value>
+                <fullName>Aesthetic Medicine</fullName>
+                <default>false</default>
+                <label>Aesthetic Medicine</label>
+            </value>
+            <value>
+                <fullName>Coloproctology</fullName>
+                <default>false</default>
+                <label>Coloproctology</label>
+            </value>
+            <value>
+                <fullName>Gastroenterology</fullName>
+                <default>false</default>
+                <label>Gastroenterology</label>
+            </value>
+            <value>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+                <label>General Surgery</label>
+            </value>
+            <value>
+                <fullName>Gynecology and Obstetrics</fullName>
+                <default>false</default>
+                <label>Gynecology and Obstetrics</label>
+            </value>
+            <value>
+                <fullName>Infectology</fullName>
+                <default>false</default>
+                <label>Infectology</label>
+            </value>
+            <value>
+                <fullName>Intensive Care Medicine</fullName>
+                <default>false</default>
+                <label>Intensive Care Medicine</label>
+            </value>
+            <value>
+                <fullName>Medical Clinic</fullName>
+                <default>false</default>
+                <label>Medical Clinic</label>
+            </value>
+            <value>
+                <fullName>Medical Genetics</fullName>
+                <default>false</default>
+                <label>Medical Genetics</label>
+            </value>
+            <value>
+                <fullName>Nephrology</fullName>
+                <default>false</default>
+                <label>Nephrology</label>
+            </value>
+            <value>
+                <fullName>Nutrology</fullName>
+                <default>false</default>
+                <label>Nutrology</label>
+            </value>
+            <value>
+                <fullName>Occupational Medicine</fullName>
+                <default>false</default>
+                <label>Occupational Medicine</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>Orthopedics and Traumatology</fullName>
+                <default>false</default>
+                <label>Orthopedics and Traumatology</label>
+            </value>
+            <value>
+                <fullName>Otorhinolaryngology</fullName>
+                <default>false</default>
+                <label>Otorhinolaryngology</label>
+            </value>
+            <value>
+                <fullName>Paediatrics</fullName>
+                <default>false</default>
+                <label>Paediatrics</label>
+            </value>
+            <value>
+                <fullName>Pathology</fullName>
+                <default>false</default>
+                <label>Pathology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Surgery</fullName>
+                <default>false</default>
+                <label>Pediatric Surgery</label>
+            </value>
+            <value>
+                <fullName>Physical Medicine and Rehabilitation</fullName>
+                <default>false</default>
+                <label>Physical Medicine and Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Psychiatry</fullName>
+                <default>false</default>
+                <label>Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Radiotherapy</fullName>
+                <default>false</default>
+                <label>Radiotherapy</label>
+            </value>
+            <value>
+                <fullName>Resident Dermatologist</fullName>
+                <default>false</default>
+                <label>Resident Dermatologist</label>
+            </value>
+            <value>
+                <fullName>Resident Plastic Surgery</fullName>
+                <default>false</default>
+                <label>Resident Plastic Surgery</label>
+            </value>
+            <value>
+                <fullName>Thoracic Surgery</fullName>
+                <default>false</default>
+                <label>Thoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Biomedical Scientist</fullName>
+                <default>false</default>
+                <label>Biomedical Scientist</label>
+            </value>
+            <value>
+                <fullName>Nurse</fullName>
+                <default>false</default>
+                <label>Nurse</label>
+            </value>
+            <value>
+                <fullName>Neurology</fullName>
+                <default>false</default>
+                <label>Neurology</label>
+            </value>
+            <value>
+                <fullName>Pulomonology</fullName>
+                <default>false</default>
+                <label>Pulomonology</label>
             </value>
         </valueSetDefinition>
     </valueSet>

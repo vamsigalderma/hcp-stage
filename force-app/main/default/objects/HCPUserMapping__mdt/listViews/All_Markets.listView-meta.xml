@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Markets</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Country__c</columns>
+    <columns>LanguageLocaleKey__c</columns>
+    <columns>LocaleSidKey__c</columns>
+    <columns>TimeZoneSidKey__c</columns>
+    <columns>Permission_Set_Name__c</columns>
+    <columns>LoginUrl__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Markets</label>
+    <language>en_US</language>
+</ListView>

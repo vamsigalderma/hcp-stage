@@ -1,0 +1,85 @@
+<messaging:emailTemplate subject="{!$Label.HCPVerifyYourEmail}" recipientType="Contact" 
+language="{!recipient.PreferredLanguage__c}" renderUsingSystemContextWithoutSharing="true">
+<messaging:htmlEmailBody >
+
+ <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+       <META name="from" content="{!$Label.HCPVerifyYourEmail} <{!$Label.HCPNoreplyEmail}>" />
+       <META name="subject" content="{!$Label.HCPVerifyYourEmail}" />
+             <META charset="utf-8"/>
+    </head>
+    <body style="font-family: Arial; ">
+        <div style="margin: 0 auto; max-width: 600px;">
+            <div style="background: #fff; border-radius: 3px; margin: 0 auto;font-size:15px; line-height: 16px; text-align:center;">
+                <!--padding:30px 30px 29px;margin: 0px auto;-->
+                <div style="">
+                <div style="text-align:center">
+                    <apex:image url="{!$Label.HCPGaldermaThemeUrl}" />
+                </div><br></br>
+                <div style="text-align:center">
+                    <apex:image url="{!$Label.HCPOnboardingJourneyUrl}" /> 
+                </div>
+                <p style="text-align:center"><b>{!$Label.HCPVerifyStep1of2}</b></p>
+                <p>{!$Label.HCPDearText} {!recipient.FirstName} {!recipient.LastName},</p>
+                <p>{!$Label.HCPThankYouText}</p>
+                <apex:outputText rendered="{!$Label.HCPStartJourneyText}">
+                    <p>{!$Label.HCPStartJourneyText}</p>
+                </apex:outputText>
+                <p>{!$Label.HCPAccountValidationText}</p><br/>
+                <p><a href="{!$Label.HCPVerifyEmailUrl}{!recipient.EmailVerificationKey__c}" style="background-color: #181b21;padding: 10px;color: #FFF;  text-decoration: none;">{!$Label.HCPVerifyEmail} </a></p><br></br>
+                <apex:outputText rendered="{!recipient.PreferredLanguage__c !='pt_BR'}">
+                    <p>{!$Label.HCPSecondEmailText}</p><br/>
+                    </apex:outputText>
+                <apex:outputText rendered="{!recipient.PreferredLanguage__c='pt_BR'}">
+                    <p>{!$Label.HCPSecondEmailTextBrazilPara1}</p>
+                    <p>{!$Label.HCPSecondEmailTextBrazilPara2}</p><br></br>
+                </apex:outputText>
+                <p>{!$Label.HCPBestRegards}</p>
+                <p><b>{!$Label.HCPGaldermaAestheticsTeam}</b></p>
+                <p>{!$Label.HCPDoYouHaveQuestions} <a href="{!$Label.HCPDoYouHaveQnsUrl}">{!$Label.HCPcontactUsText}</a></p>
+                </div>
+            </div>
+            <div aria-label="Site footer" id="footer" role="contentinfo" style="color: #faf9f8; background-color: #181b21;padding: 40px 80px;text-align:center;">
+            <div class="region region-footer">
+            <div id="block-footerblock" class="block block-galderma-module block-footer-block">
+                <div class="footer">
+                    <div class="row align-items-center mb-5 mx-0">
+                        <div class="col-sm-6 logo" style="float: left !important;">
+                            <!-- <img alt="galderma logo" src="https://www.gainconnect.com/cl/sites/all/themes/custom/galderma_theme/images/galderma_logo.svg"></img> -->
+                            <img alt="galderma logo" src="{!$Label.HCPLogoForFooter}"></img>
+                            
+                        </div>
+                        <div class="col-sm-6 socialmedia-icons" style="float: right !important;"><a href="{!$Label.HCPInstagramLink}" target="_blank">
+                            <!-- <img alt="instagram icon" src="https://www.gainconnect.com/cl/sites/all/themes/custom/galderma_theme/images/instagram_icon.svg"></img> -->
+                            <img alt="instagram icon" src="{!$Label.HCPInstaIcon}"></img>
+                            
+                            </a> 
+                            <a href="{!$Label.HCPFacebookLink}" >
+                            <img alt="facebook icon" src="{!$Label.HCPFbLogo}"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row text-center" style="clear: both;margin-top:5%;">
+                        <div style="text-align:center;max-width: 530px;margin-bottom: 1.5rem;line-height: 40px;display: inline-block;">
+                        {!$Label.HCPUnsubscribeText} <a href="{!$Label.HCPUnsubscribeLink}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPUnsubscribe}</a><br></br>
+                        <a class="btn-link" style="text-align:center;border: 1px solid #f8f8f8;margin-bottom: 72px;padding: 16px 32px;color: #ffffff;letter-spacing: 2px;" href="{!$Label.HCpCountryLoginUrl}" target="_blank" id="btn-get">{!$Label.HCPLoginText} </a>
+                        </div>
+                        <div id="footer-links-container" style="display: flex; padding-bottom: 32px; border-bottom: 1px solid #ffffff; margin-bottom: 32px;">
+                            <a href="{!$Label.HCPGaldermaWebsiteUrl}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPGaldermaWebsite}</a> 
+                            <a href="{!$Label.HCPLegalNotice}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPLegalNoticeText}</a> 
+                            <a href="{!$Label.HCPPrivacyNotice}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPPrivacyNoticeText}</a> 
+                            <a href="{!$Label.HCPCookiePolicyUrl}" target="_blank" style="color: #ffffff;margin: 0 auto;">{!$Label.HCPCookiePolicyText}</a> 
+                        </div>
+                        <p class="mb-0" id="copyright" style="text-align:center;">{!$Label.HCPGaldermaReservedRights}</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    
+    </body> 
+</html>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

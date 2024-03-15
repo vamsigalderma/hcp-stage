@@ -1,0 +1,19 @@
+@import 'c/hcpStyleUtility';
+/* 
+.test-focus .slds-input {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+ }
+ .slds-input:has(.test-focus) {
+    padding: 0.25rem 0.5rem;
+    --dxp-s-form-element-text-color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+ .test-focus{
+
+    
+ }
+ .test-focus:host {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+ } */

@@ -22,4 +22,7 @@
         <value>Mexico</value>
     </filters>
     <label>GainConnect Mexico</label>
+    <sharedTo>
+        <group>HCP_Mexico</group>
+    </sharedTo>
 </ListView>

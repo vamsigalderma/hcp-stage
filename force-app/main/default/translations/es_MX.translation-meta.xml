@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- HCP --></label>
+        <name>HCP</name>
+    </customApplications>
+    <customLabels>
+        <label>¿Aún no posee una cuenta? Haga click aquí.</label>
+        <name>AccountCreationLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Olvidé mi contraseña?</label>
+        <name>ForgotPasswordLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPAccessInformation --></label>
+        <name>HCPAccessInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>Crear una cuenta</label>
+        <name>HCPAccountCreateText</name>
+    </customLabels>
+    <customLabels>
+        <label>Para iniciar el proceso de validación de su cuenta, le pedimos que verifique su correo electrónico haciendo clic en el siguiente botón</label>
+        <name>HCPAccountValidationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPActiveMarkets --></label>
+        <name>HCPActiveMarkets</name>
+    </customLabels>
+    <customLabels>
+        <label>Dirección</label>
+        <name>HCPAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPAdminEmail --></label>
+        <name>HCPAdminEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>ENTRAR</label>
+        <name>HCPBackToLogin</name>
+    </customLabels>
+    <customLabels>
+        <label>Saludos,</label>
+        <name>HCPBestRegards</name>
+    </customLabels>
+    <customLabels>
+        <label>Complete el captcha para continuar.</label>
+        <name>HCPCaptchaError</name>
+    </customLabels>
+    <customLabels>
+        <label>Ciudad</label>
+        <name>HCPCity</name>
+    </customLabels>
+    <customLabels>
+        <label>Confirmar el correo</label>
+        <name>HCPConfirmEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>Las direcciones de correo no coinciden. Por favor vuelva a ingresar para confirmar.</label>
+        <name>HCPConfirmEmailNoMatch</name>
+    </customLabels>
+    <customLabels>
+        <label>Confirme la contraseña *</label>
+        <name>HCPConfirmPasswordLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>privacy.switzerland@galderma.com</label>
+        <name>HCPConsentEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Política de Cookies</label>
+        <name>HCPCookiePolicyText</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.gainconnect.com/mx/pol%C3%ADtica-de-cookies</label>
+        <name>HCPCookiePolicyUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPCouncilState --></label>
+        <name>HCPCouncilState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPCountry --></label>
+        <name>HCPCountry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPCpf --></label>
+        <name>HCPCpf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPDateOfBirth --></label>
+        <name>HCPDateOfBirth</name>
+    </customLabels>
+    <customLabels>
+        <label>Estimado</label>
+        <name>HCPDearText</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.galderma.com/mx/contacto</label>
+        <name>HCPDoYouHaveQnsUrl</name>
+    </customLabels>
+    <customLabels>
+        <label>¿Tiene alguna pregunta?</label>
+        <name>HCPDoYouHaveQuestions</name>
+    </customLabels>
+    <customLabels>
+        <label>Dirección de correo electrónico</label>
+        <name>HCPEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>El Email ya existe.</label>
+        <name>HCPEmailAddressExists</name>
+    </customLabels>
+    <customLabels>
+        <label>La dirección de correo electrónico no es válida.</label>
+        <name>HCPEmailAddressInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico *</label>
+        <name>HCPEmailAddressPlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label>https://test-gainconnect-mx.pantheonsite.io/email-validation-success
+?lang=mx&amp;errorCode=</label>
+        <name>HCPEmailvalidationSuccessUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPExecuteDrupalReg --></label>
+        <name>HCPExecuteDrupalReg</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor, ingrese la dirección de correo electrónico que está utilizando para su cuenta de Gain Connect.</label>
+        <name>HCPFPText</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.facebook.com/Galderma.Aesthetics.Mx/</label>
+        <name>HCPFacebookLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPFbLogo --></label>
+        <name>HCPFbLogo</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre</label>
+        <name>HCPFirstName</name>
+    </customLabels>
+    <customLabels>
+        <label>¿Desea restablecer su contraseña de Gain Connect?</label>
+        <name>HCPForgotPasswordTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Equipo Galderma Aesthetics</label>
+        <name>HCPGaldermaAestheticsTeam</name>
+    </customLabels>
+    <customLabels>
+        <label>© Galderma 2023. Todos los derechos reservados</label>
+        <name>HCPGaldermaReservedRights</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPGaldermaThemeUrl --></label>
+        <name>HCPGaldermaThemeUrl</name>
+    </customLabels>
+    <customLabels>
+        <label>Galderma Website</label>
+        <name>HCPGaldermaWebsite</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.galderma.com/</label>
+        <name>HCPGaldermaWebsiteUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPGender --></label>
+        <name>HCPGender</name>
+    </customLabels>
+    <customLabels>
+        <label>Bienvenido al Portal del Profesional de la Salud de Galderma Aesthetics.</label>
+        <name>HCPHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPInstaIcon --></label>
+        <name>HCPInstaIcon</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.instagram.com/accounts/login/?next=/galderma.aesthetics.mexico</label>
+        <name>HCPInstagramLink</name>
+    </customLabels>
+    <customLabels>
+        <label>[&quot;Encontrar información y contenido sobre nuestros productos&quot;, &quot;Acceder a educación y capacitación validada&quot;,&quot;Descubrir herramientas que le ayudarán a gestionar y hacer crecer su negocio.&quot;]</label>
+        <name>HCPInstrcutionsArray</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPInvalidCPF --></label>
+        <name>HCPInvalidCPF</name>
+    </customLabels>
+    <customLabels>
+        <label>Invalid Medical ID</label>
+        <name>HCPInvalidMedicalId</name>
+    </customLabels>
+    <customLabels>
+        <label>Invalid Mobile Phone Number</label>
+        <name>HCPInvalidPhone</name>
+    </customLabels>
+    <customLabels>
+        <label>Invalid Zip code</label>
+        <name>HCPInvalidZip</name>
+    </customLabels>
+    <customLabels>
+        <label>Apellido</label>
+        <name>HCPLastName</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.gainconnect.com/mx/aviso-legal</label>
+        <name>HCPLegalNotice</name>
+    </customLabels>
+    <customLabels>
+        <label>Aviso Legal</label>
+        <name>HCPLegalNoticeText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPLicenseAgreementUrl --></label>
+        <name>HCPLicenseAgreementUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPLicenseState --></label>
+        <name>HCPLicenseState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPLoginErrorThailand --></label>
+        <name>HCPLoginErrorThailand</name>
+    </customLabels>
+    <customLabels>
+        <label>ENTRAR</label>
+        <name>HCPLoginText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPLogoForFooter --></label>
+        <name>HCPLogoForFooter</name>
+    </customLabels>
+    <customLabels>
+        <label>Cédula Profesional</label>
+        <name>HCPMedicalId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPMiddleName --></label>
+        <name>HCPMiddleName</name>
+    </customLabels>
+    <customLabels>
+        <label>Como parte de nuestros esfuerzos para optimizar el acceso a los sitios web de Galderma, le solicitamos que actualice su contraseña. Para iniciar el proceso, haga clic en Enviar y revise su correo electrónico para obtener más instrucciones para restablecer su contraseña.</label>
+        <name>HCPMigratedUserMsg</name>
+    </customLabels>
+    <customLabels>
+        <label>52</label>
+        <name>HCPMobileCountryCode</name>
+    </customLabels>
+    <customLabels>
+        <label>noreply-gc@gainconnect.com</label>
+        <name>HCPNoreplyEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPOnboardingJourneyUrl --></label>
+        <name>HCPOnboardingJourneyUrl</name>
+    </customLabels>
+    <customLabels>
+        <label>Aquí podrá:</label>
+        <name>HCPOrderListHeading</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre del médico/clínica</label>
+        <name>HCPOrgName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPOrgWideEmailAddress --></label>
+        <name>HCPOrgWideEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>La longitud mínima de la contraseña es 10 caracteres y debe contener al menos 1 letra minúscula, 1 letra mayúscula 1 número y 1 carácter especial.</label>
+        <name>HCPPasswordInstructions</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico no válido.</label>
+        <name>HCPPasswordInvaliEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Contraseña *</label>
+        <name>HCPPasswordLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>10 caracteres mínimo</label>
+        <name>HCPPasswordLength</name>
+    </customLabels>
+    <customLabels>
+        <label>Un carácter en minúscula</label>
+        <name>HCPPasswordLower</name>
+    </customLabels>
+    <customLabels>
+        <label>No existe un usuario con ese correo o contraseña.</label>
+        <name>HCPPasswordNoEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Las contraseñas no son iguales</label>
+        <name>HCPPasswordNoMatch</name>
+    </customLabels>
+    <customLabels>
+        <label>Un numero</label>
+        <name>HCPPasswordNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>Un carácter especial</label>
+        <name>HCPPasswordSpecial</name>
+    </customLabels>
+    <customLabels>
+        <label>ENVIAR</label>
+        <name>HCPPasswordSubmitBtnText</name>
+    </customLabels>
+    <customLabels>
+        <label>Un carácter en mayúscula</label>
+        <name>HCPPasswordUpper</name>
+    </customLabels>
+    <customLabels>
+        <label>La contraseña no es lo suficientemente segura</label>
+        <name>HCPPasswordWeak</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPPersonalInformation --></label>
+        <name>HCPPersonalInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de teléfono</label>
+        <name>HCPPhoneNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>es_MX</label>
+        <name>HCPPreferredLanguage</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.gainconnect.com/mx/pol%C3%ADticas-de-privacidad</label>
+        <name>HCPPrivacyNotice</name>
+    </customLabels>
+    <customLabels>
+        <label>Política de Privacidad</label>
+        <name>HCPPrivacyNoticeText</name>
+    </customLabels>
+    <customLabels>
+        <label>Se produjo un error al procesar sus datos. Inténtalo de nuevo.</label>
+        <name>HCPProcessingErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label>Profesión</label>
+        <name>HCPProfession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPProfessionalInformation --></label>
+        <name>HCPProfessionalInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>Se enviará un correo electrónico con un enlace para restablecer su contraseña a la dirección de correo electrónico que ha proporcionado.</label>
+        <name>HCPPwdCnfPara1</name>
+    </customLabels>
+    <customLabels>
+        <label>Si no recibe un correo electrónico de nuestra parte en unos minutos, por favor revise su buzón de correo no deseado (SPAM). Si el correo electrónico no llega, vuelva a ingresar su dirección de correo electrónico y envíe nuevamente.</label>
+        <name>HCPPwdCnfPara2</name>
+    </customLabels>
+    <customLabels>
+        <label>In case of any other issue, please don’t hesitate to contact us. We are happy to help you.</label>
+        <name>HCPPwdCnfPara3</name>
+    </customLabels>
+    <customLabels>
+        <label>Contáctenos</label>
+        <name>HCPPwdContactUsText</name>
+    </customLabels>
+    <customLabels>
+        <label>Saludos,</label>
+        <name>HCPPwdEmailBestWishes</name>
+    </customLabels>
+    <customLabels>
+        <label>Si usted no solicitó restablecimiento de su contraseña, por favor ignore este mensaje</label>
+        <name>HCPPwdEmailPara2</name>
+    </customLabels>
+    <customLabels>
+        <label>GAIN Connect | Restablecer su contraseña</label>
+        <name>HCPPwdEmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>De acuerdo a su solicitud, aquí encontrará un link para reestableer su contraseña para GAIN Connect.</label>
+        <name>HCPPwdPara1</name>
+    </customLabels>
+    <customLabels>
+        <label>Atentamente,</label>
+        <name>HCPPwdSincerely</name>
+    </customLabels>
+    <customLabels>
+        <label>El equipo de Galderma Aesthetics</label>
+        <name>HCPPwdTeam</name>
+    </customLabels>
+    <customLabels>
+        <label>Esperamos verle pronto en GAIN Connect.</label>
+        <name>HCPPwdThankYou</name>
+    </customLabels>
+    <customLabels>
+        <label>Si cree que se ha cometido un error o si tiene alguna pregunta sobre su
+cuenta, utilice este enlace para ponerse en contacto con nosotros:</label>
+        <name>HCPQuestionsText</name>
+    </customLabels>
+    <customLabels>
+        <label>Registro</label>
+        <name>HCPRegisterLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Regístrese con su correo electrónico y contraseña:</label>
+        <name>HCPRegisterText</name>
+    </customLabels>
+    <customLabels>
+        <label>Lamentamos informarle que no podemos autenticar su cuenta según la
+información que ha proporcionado y no podemos otorgarle acceso a
+GAIN Connect.</label>
+        <name>HCPRegretText</name>
+    </customLabels>
+    <customLabels>
+        <label>Contáctenos</label>
+        <name>HCPRejectionContactUsText</name>
+    </customLabels>
+    <customLabels>
+        <label>Un problema ha sido encontrado con su cuenta</label>
+        <name>HCPRejectionEmailTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Sinceramente,</label>
+        <name>HCPRejectionThankYouText</name>
+    </customLabels>
+    <customLabels>
+        <label>Esperamos verlo en GAIN Connect.</label>
+        <name>HCPSecondEmailText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPSecondEmailTextBrazilPara1 --></label>
+        <name>HCPSecondEmailTextBrazilPara1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPSecondEmailTextBrazilPara2 --></label>
+        <name>HCPSecondEmailTextBrazilPara2</name>
+    </customLabels>
+    <customLabels>
+        <label>Mexico</label>
+        <name>HCPSiteCountry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCP Site Profile Name --></label>
+        <name>HCPSiteProfileName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPSpecialty --></label>
+        <name>HCPSpecialty</name>
+    </customLabels>
+    <customLabels>
+        <label>Estamos emocionados por empezar esta travesía con usted.</label>
+        <name>HCPStartJourneyText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HCPState --></label>
+        <name>HCPState</name>
+    </customLabels>
+    <customLabels>
+        <label>GAIN Connect | Error de autenticación de su cuenta</label>
+        <name>HCPSubjectValidationRejection</name>
+    </customLabels>
+    <customLabels>
+        <label>¡Gracias por registrarse en GAIN Connect!</label>
+        <name>HCPThankYouText</name>
+    </customLabels>
+    <customLabels>
+        <label>Título</label>
+        <name>HCPTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>anule su suscripción aquí.</label>
+        <name>HCPUnsubscribe</name>
+    </customLabels>
+    <customLabels>
+        <label>https://cloud.gainconnect.com/unsubscribe</label>
+        <name>HCPUnsubscribeLink</name>
+    </customLabels>
+    <customLabels>
+        <label>Ha recibido este correo electrónico debido a su registro en GAIN Connect. Si no desea recibir más correos electrónicos,</label>
+        <name>HCPUnsubscribeText</name>
+    </customLabels>
+    <customLabels>
+        <label>Esta dirección de correo electrónico ha sido verificada, pero la validación de la cuenta aún está en curso. Recibirá una notificación por correo electrónico tan pronto como se complete la validación de la cuenta, lo que le permitirá acceder al portal.</label>
+        <name>HCPValidationError</name>
+    </customLabels>
+    <customLabels>
+        <label>Este campo es obligatorio</label>
+        <name>HCPValueMissing</name>
+    </customLabels>
+    <customLabels>
+        <label>Su dirección de correo electrónico aún no ha sido verificada. Por favor revise su correo electrónico para validarlo en el enlace de verificación. Tenga en cuenta: el correo electrónico puede estar en su buzón de correo no deseado.</label>
+        <name>HCPVerificationError</name>
+    </customLabels>
+    <customLabels>
+        <label>Verificar correo electrónico</label>
+        <name>HCPVerifyEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>https://galderma-hcp--sit.sandbox.my.site.com/mx/email-verification?key=</label>
+        <name>HCPVerifyEmailUrl</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor verifique su dirección de correo electrónico</label>
+        <name>HCPVerifyStep1of2</name>
+    </customLabels>
+    <customLabels>
+        <label>GAIN Connect | Por favor verifique su dirección de correo electrónico</label>
+        <name>HCPVerifyYourEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Reestablecer contraseña para GAIN Connect</label>
+        <name>HCPWelcomeToGC</name>
+    </customLabels>
+    <customLabels>
+        <label>Código Postal</label>
+        <name>HCPZipCode</name>
+    </customLabels>
+    <customLabels>
+        <label>Puede contactarnos aquí</label>
+        <name>HCPcontactUsText</name>
+    </customLabels>
+    <customLabels>
+        <label>https://test-gainconnect-mx.pantheonsite.io/samllogin</label>
+        <name>HCpCountryLoginUrl</name>
+    </customLabels>
+    <customLabels>
+        <label>Reestablecer contraseña</label>
+        <name>HCpResetYourPwdLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Inicie sesión con su correo electrónico y contraseña:</label>
+        <name>LoginDetailsHeader</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico</label>
+        <name>LoginEmailLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico *</label>
+        <name>LoginEmailPlaceholderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LoginError --></label>
+        <name>LoginError</name>
+    </customLabels>
+    <customLabels>
+        <label>Aquí podrá:</label>
+        <name>LoginHeader</name>
+    </customLabels>
+    <customLabels>
+        <label>Encontrar información y contenido sobre nuestros productos</label>
+        <name>LoginItem1</name>
+    </customLabels>
+    <customLabels>
+        <label>Acceder a educación y capacitación validada</label>
+        <name>LoginItem2</name>
+    </customLabels>
+    <customLabels>
+        <label>Descubrir herramientas que le ayudarán a gestionar y hacer crecer su negocio.</label>
+        <name>LoginItem3</name>
+    </customLabels>
+    <customLabels>
+        <label>ENVIAR</label>
+        <name>LoginLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Contraseña</label>
+        <name>LoginPasswordLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Contraseña *</label>
+        <name>LoginPasswordPlaceholderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Bienvenido al Portal del Profesional de la Salud de Galderma Aesthetics.</label>
+        <name>LoginTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Haga clic aquí para enviar un nuevo correo electrónico de verificación</label>
+        <name>ResendVerificationLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>https://test-gainconnect-mx.pantheonsite.io/user-registration-success</label>
+        <name>hcpSuccessUrl</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Access_Issue</name>
+            </choices>
+            <choices>
+                <name>Adverse_reactions</name>
+            </choices>
+            <choices>
+                <name>Closed_denied</name>
+            </choices>
+            <choices>
+                <name>Closed_verified</name>
+            </choices>
+            <choices>
+                <name>Complex_functionality</name>
+            </choices>
+            <choices>
+                <name>Criticism_Praise_Suggestion</name>
+            </choices>
+            <choices>
+                <name>Doubts</name>
+            </choices>
+            <choices>
+                <name>Existing_problem</name>
+            </choices>
+            <choices>
+                <name>Instructions_not_clear</name>
+            </choices>
+            <choices>
+                <name>New_problem</name>
+            </choices>
+            <choices>
+                <name>Other</name>
+            </choices>
+            <choices>
+                <name>Press</name>
+            </choices>
+            <choices>
+                <name>Purchase</name>
+            </choices>
+            <choices>
+                <name>UserVerification</name>
+            </choices>
+            <choices>
+                <name>User_did_not_attend_training</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Case_Reason</name>
+                </fields>
+                <fields>
+                    <name>StatusPicklist</name>
+                </fields>
+                <name>HeaderFooter</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errorMessage</name>
+                </fields>
+                <name>headerfooter_2</name>
+            </screens>
+        </flows>
+        <fullName>Case_Status_Change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>CustomerUserExistValidationMsg</name>
+                </fields>
+                <name>CustomUserAlreadyExist</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>BrandNameError</name>
+                </fields>
+                <fields>
+                    <name>CiamIdError</name>
+                </fields>
+                <fields>
+                    <name>MailingCountryError</name>
+                </fields>
+                <fields>
+                    <name>PreferredLanguageErro</name>
+                </fields>
+                <fields>
+                    <name>PrivacyConsentError</name>
+                </fields>
+                <fields>
+                    <name>TrustLevelError</name>
+                </fields>
+                <fields>
+                    <name>getLocalInfoMissing</name>
+                </fields>
+                <name>EnableCustomerUserFailed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errorMessage</name>
+                </fields>
+                <name>ErrorScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>SuccessMessage</name>
+                </fields>
+                <name>SuccessScreen</name>
+            </screens>
+        </flows>
+        <fullName>Contact_Enable_Customer_User</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ConfirmationText</name>
+                </fields>
+                <name>ConfirmationScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ValidationText</name>
+                </fields>
+                <name>ValidationScreen</name>
+            </screens>
+        </flows>
+        <fullName>Contact_Update_Action</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>EmailVerification</name>
+                </fields>
+                <name>Email_Verification_Completed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errormessage</name>
+                </fields>
+                <name>Error_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>textsuccess</name>
+                </fields>
+                <name>Final_Screen</name>
+            </screens>
+        </flows>
+        <fullName>HCP_Resend_Verification_Link</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ConfirmationText</name>
+                </fields>
+                <name>ConfirmatinScreen</name>
+            </screens>
+        </flows>
+        <fullName>Reopen_Case_Record</fullName>
+    </flowDefinitions>
+</Translations>

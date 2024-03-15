@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>GainConnect Mexico</label>
+    <site>
+        <urlPathPrefix>mx</urlPathPrefix>
+    </site>
+    <space>site/GainConnect_Mexico1</space>
+</DigitalExperienceConfig>

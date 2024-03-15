@@ -15,10 +15,6 @@
         <default>true</default>
     </values>
     <values>
-        <fullName>Pending Automated Validation</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>Pending Manual Validation</fullName>
         <default>false</default>
     </values>

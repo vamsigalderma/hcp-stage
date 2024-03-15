@@ -1,6 +1,6 @@
 @isTest
 public class ContactTriggertoACC_Test {
-	@isTest
+  @isTest
     Public static void contactandAccountcreationandupdate_testCreateAccount(){
         
         contact c = new Contact(

@@ -36,7 +36,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Dentist</masterLabel>
-        <translation></translation>
+        <translation>Dentist</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dermatologist</masterLabel>
@@ -44,7 +44,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
-        <translation></translation>
+        <translation>Doctor</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Executive</masterLabel>

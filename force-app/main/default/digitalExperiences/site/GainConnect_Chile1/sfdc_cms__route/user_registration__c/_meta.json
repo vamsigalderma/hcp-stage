@@ -1,0 +1,5 @@
+{
+  "apiName" : "user_registration__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation></CustomObjectTranslation>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>HCP Validation</layout>
+        <sections>
+            <label></label>
+            <section>Consent Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>HCP Email Verification Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Registration Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Enable_Customer_User</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Mark_Email_Verified</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Resend_Verification_Link</name>
+    </quickActions>
+</CustomObjectTranslation>

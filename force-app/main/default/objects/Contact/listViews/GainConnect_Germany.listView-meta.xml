@@ -10,7 +10,7 @@
     <columns>isTest__c</columns>
     <columns>TrustLevel__c</columns>
     <columns>CONTACT.CREATED_DATE</columns>
-    <columns>Profession__c</columns>
+<columns>Profession__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>BrandName__c</field>
@@ -28,4 +28,7 @@
         <value>0</value>
     </filters>
     <label>GainConnect Germany</label>
+    <sharedTo>
+        <group>HCP_Germany</group>
+    </sharedTo>
 </ListView>

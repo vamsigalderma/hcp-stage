@@ -1,0 +1,62 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "email-verification",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"0f9007e0-90aa-449f-a390-e154864c1ace\",\"columns\":[{\"UUID\":\"73089758-a9ae-48ef-b2e6-248e00ada610\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:emailVerification",
+              "id" : "d6a4d161-bfff-4172-9cfd-c32f8491849f",
+              "type" : "component"
+            } ],
+            "id" : "73089758-a9ae-48ef-b2e6-248e00ada610",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0f9007e0-90aa-449f-a390-e154864c1ace",
+          "type" : "component"
+        } ],
+        "id" : "dfd29831-62b8-4d62-88ff-ac9fff8e4254",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "email-verification",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0668ef96-fc5c-45a7-924e-35d22ec4209b",
+          "type" : "component"
+        } ],
+        "id" : "e2fd63f3-a17a-4ea4-98a4-6942cea88097",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c48b8cfa-f332-4b40-9690-da63e6c05d0b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-email-verification"
+  }
+}

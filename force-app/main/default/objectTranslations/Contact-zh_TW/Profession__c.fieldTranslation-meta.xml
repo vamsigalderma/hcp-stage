@@ -20,11 +20,11 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Clinic Manager</masterLabel>
-        <translation></translation>
+        <translation>診所管理者</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Consultant</masterLabel>
-        <translation></translation>
+        <translation>諮詢師</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Dental Auxiliary</masterLabel>
@@ -44,7 +44,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Doctor</masterLabel>
-        <translation></translation>
+        <translation>醫師</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Executive</masterLabel>
@@ -92,7 +92,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Nursing staff</masterLabel>
-        <translation></translation>
+        <translation>護理人員</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Office manager</masterLabel>
@@ -112,7 +112,7 @@
     </picklistValues>
     <picklistValues>
         <masterLabel>Others</masterLabel>
-        <translation></translation>
+        <translation>其他</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Otorhinolaryngologist</masterLabel>

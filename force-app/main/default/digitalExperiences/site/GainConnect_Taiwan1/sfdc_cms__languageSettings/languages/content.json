@@ -1,0 +1,13 @@
+{
+  "type" : "sfdc_cms__languageSettings",
+  "title" : "LanguageContent",
+  "contentBody" : {
+    "defaultLocale" : "zh_TW",
+    "languages" : [ {
+      "isActive" : true,
+      "isAuthoringOnly" : false,
+      "label" : "Chinese (Traditional) (TW)",
+      "locale" : "zh_TW"
+    } ]
+  }
+}

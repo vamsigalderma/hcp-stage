@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>vamsikrishna.mopidevi@galderma.com</contactEmail>
+    <label>GainConnect Thailand SSO</label>
+    <samlConfig>
+        <acsUrl>https://test-gainconnect-th.pantheonsite.io/samlassertion</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://test-gainconnect-th.pantheonsite.io</entityUrl>
+        <issuer>https://galderma-hcp--sit.sandbox.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

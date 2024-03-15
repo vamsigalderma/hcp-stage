@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"2bdcf08d-ce85-4df8-9ffe-7573506f908d\",\"columns\":[{\"UUID\":\"ad364cf8-09b1-4246-be30-871e62602c78\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:lwcHcpHomeComponent",
+              "id" : "d72bdc70-85d1-42ad-9759-13f5a0b0241f",
+              "type" : "component"
+            } ],
+            "id" : "ad364cf8-09b1-4246-be30-871e62602c78",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2bdcf08d-ce85-4df8-9ffe-7573506f908d",
+          "type" : "component"
+        } ],
+        "id" : "d2e17ce2-877e-49a4-b993-84ad910a5b92",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "a40dbcd6-8218-49bf-aec6-2bf8359b096a",
+          "type" : "component"
+        } ],
+        "id" : "a7c98e5c-ee92-4a05-998d-87ea730f0d62",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "26142033-07bf-481c-aad3-e1d3bdffc0b0",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "ArH2ok7HswA13Fr2vkk4Qpp5QDFyDO",
+    "viewType" : "home"
+  }
+}

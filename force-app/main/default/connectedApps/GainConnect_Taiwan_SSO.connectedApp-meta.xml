@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributes>
+        <formula>$User.Country</formula>
+        <key>country</key>
+    </attributes>
+    <attributes>
+        <formula>$User.FirstName</formula>
+        <key>firstname</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.HasEmailOptedOut__c, &quot;1&quot;, &quot;0&quot;)</formula>
+        <key>hasEmailOptedOut</key>
+    </attributes>
+    <attributes>
+        <formula>$User.LastName</formula>
+        <key>lastname</key>
+    </attributes>
+    <attributes>
+        <formula>$User.MedicalId__c</formula>
+        <key>medicalId</key>
+    </attributes>
+    <attributes>
+        <formula>$User.MobilePhone</formula>
+        <key>mobilenumber</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.PrivacyConsent__c, &quot;1&quot;, &quot;0&quot;)</formula>
+        <key>privacyConsent</key>
+    </attributes>
+    <attributes>
+        <formula>$User.Profession__c</formula>
+        <key>profession</key>
+    </attributes>
+    <attributes>
+        <formula>$User.ContactId</formula>
+        <key>sf_accountid</key>
+    </attributes>
+    <attributes>
+        <formula>$User.CIAMId__c</formula>
+        <key>uid</key>
+    </attributes>
+    <attributes>
+        <formula>$User.PostalCode</formula>
+        <key>zip</key>
+    </attributes>
+    <contactEmail>vamsikrishna.mopidevi@galderma.com</contactEmail>
+    <label>GainConnect Taiwan SSO</label>
+    <samlConfig>
+        <acsUrl>https://test-gainconnect-tw.pantheonsite.io/samlassertion</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://test-gainconnect-tw.pantheonsite.io</entityUrl>
+        <issuer>https://galderma-hcp--sit.sandbox.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

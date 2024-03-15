@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Iniciar sesión | GAIN Connect",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"734b9f9f-b2e9-42a2-a26f-b4beb2e654d1\",\"columns\":[{\"UUID\":\"ebfda390-f73a-4dad-a416-5afbe4ed8bc0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hcpLoginForm",
+              "id" : "aeab5d2e-35dd-4c03-955e-42e85f8e3c30",
+              "type" : "component"
+            } ],
+            "id" : "ebfda390-f73a-4dad-a416-5afbe4ed8bc0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "734b9f9f-b2e9-42a2-a26f-b4beb2e654d1",
+          "scopedBrandingSetId" : "Galderma",
+          "type" : "component"
+        } ],
+        "id" : "3a935110-e8e6-4d79-b7d5-fc5feeb16f7d",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Iniciar sesión | GAIN Connect",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b968632a-4cf1-4d1f-be8b-dbb11a615680",
+          "type" : "component"
+        } ],
+        "id" : "e5e20cde-f01a-4930-8941-75571d1571d4",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "337bfd2c-9836-4ef9-8262-f48690de5eee",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "ArH2ok7HswA13Fr2vkk4Qpp5QDFyDO",
+    "viewType" : "login-main"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Brazil-Specialty</label>
+    <protected>false</protected>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">Specialty__c</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">br</value>
+    </values>
+    <values>
+        <field>Picklist_Values__c</field>
+        <value xsi:type="xsd:string">Aesthetic Medicine;Allergy and Immunology;Anesthesiology;Biomedical Scientist;Cardiology;Cardiovascular Surgery;Coloproctology;Dermatologist;Endocrinology and Metabology;Gastroenterology;General Surgery;Geriatrics;Gynecology and Obstetrics;Infectology;Intensive Care Medicine;Medical Clinic;Medical Genetics;Nephrology;Neurology;Nurse;Nutrology;Occupational Medicine;Ophthalmology;Orthopedics and Traumatology;Others;Otorhinolaryngology;Paediatrics;Pathology;Pediatric Surgery;Pharmacist;Physical Medicine and Rehabilitation;Radiotherapy;Resident Dermatologist;Resident Plastic Surgery;Thoracic Surgery</value>
+    </values>
+</CustomMetadata>
